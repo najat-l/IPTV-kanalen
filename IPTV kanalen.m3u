@@ -37,7 +37,13 @@ https://cdn.live.easybroadcast.io/ts_corp/73_tamazight_tccybxt/playlist_dvr.m3u8
 https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
 #EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa" tvg-logo="https://i.imgur.com/S6LcTJv.png" group-title="Religious",Al Sunnah Al Nabawiyah TV (1080p)
 https://sbc-prod-dub-enc.edgenextcdn.net/out/v1/b09bbb8d9b684763be4211b088168de7/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/qorantv.jpg?v=7",Al Quran Al Kareem
+https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=qoran_tv&t=11111111
+#EXTINF:-1 tvg-id="Saudi Sunnah ARB" tvg-name="Saudi Sunnah ARB" tvg-logo="https://www.elahmad.com/tv/mobiletv/images/sunaa.jpg?v=7",Al Sunnah (Medina)
+https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=sunna_tv&t=11111111
 #EXTINF:-1 tvg-id="MakkahTV.sa" tvg-logo="https://i.imgur.com/PRPcOi0.png" group-title="Religious",Makkah TV (576p)
+https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/makkahtv.jpg?v=7",Makkah TV
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-id="QuranRadio.sa" tvg-logo="https://i.imgur.com/ut0kr4x.png" group-title="Undefined",Quran Radio (1080p)
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8
@@ -51,6 +57,28 @@ https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8
 #EXTINF:-1 tvg-id="IqraaQuran.sa" tvg-logo="https://i.imgur.com/HPVsIa4.png" group-title="Religious",Iqraa Quran (1080p)
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
+#EXTINF:-1 tvg-id="AlMayadeen.lb" tvg-name="Al Mayadeen" tvg-logo="https://www.elahmad.com/tv/mobiletv/images/almayadeen.jpg?v=7" ,Al Mayadeen
+https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/bahrain_quaran.jpg?v=7",Bahrain Quran
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/bahraintv.jpg?v=7",Bahrain TV
+https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/bahrain_international.jpg?v=7",Bahrain International
+https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/oman_tv.jpg?v=7",Oman TV
+https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/omantv_cultural.jpg?v=7",Oman TV Cultural
+https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/oman_live.jpg?v=7",Oman TV Mubashir
+https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/amman_tv.jpg?v=7",Amman TV
+https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8
+#EXTINF:-1 tvg-id="Jordan ARB" tvg-name="Jordan ARB" tvg-logo="https://www.elahmad.com/tv/mobiletv/images/jordan_tv.jpg?v=7",Jordan TV
+https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
+#EXTINF:-1 tvg-id="Roya TV ARB" tvg-name="Roya TV ARB" tvg-logo="https://www.elahmad.com/tv/mobiletv/images/royatv.jpg?v=7",Ro'ya TV
+https://royatv-live.daioncdn.net/royatv/royatv.m3u8
+#EXTINF:-1 tvg-logo="https://www.elahmad.com/tv/mobiletv/images/aqsa_tv.jpg?v=7",Al Aqsa Channel
+https://64c53df624b1b.servers.dvcloud.tv/hls/feedspare/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
 #EXTINF:-1 tvg-id="DeenTV.uk" tvg-logo="https://i.imgur.com/Zp62Nbd.png" group-title="General",Deen TV (576p) [Not 24/7]
 https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
 #EXTINF:-1 tvg-id="Alarabiya.ae" tvg-logo="https://i.imgur.com/NXFkYFj.png" group-title="News",Al Arabiya (1080p)
