@@ -196,5 +196,14 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058
 https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
 
 
-#EXTINF:-1 tvg-id="Test",Test
-https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=aloula&t=11111111
+
+#EXTINF:-1 tvg-id="Test1",Test1
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks.m3u8
+#EXTINF:-1 tvg-id="Test2",Test2
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks.m3u8?token=fsQZphIyVegYBVK30ntp6pIHo-72zxlY5UXSUwr-bJQ&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm&expires=1759692788
+#EXTINF:-1 tvg-id="Test3",Test3
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks.m3u8?token=fsQZphIyVegYBVK30ntp6pIHo-72zxlY5UXSUwr-bJQ&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
+#EXTINF:-1 tvg-id="Test4",Test4
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=OjuC5y4ScX3Rn0BB44tP2GiedI6nbbNcgBc0cYpnHns&expires=1759693045&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
+#EXTINF:-1 tvg-id="Test5",Test5
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=OjuC5y4ScX3Rn0BB44tP2GiedI6nbbNcgBc0cYpnHns&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
