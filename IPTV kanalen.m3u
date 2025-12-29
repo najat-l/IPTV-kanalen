@@ -199,9 +199,8 @@ https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protoc
 
 #EXTINF:-1 tvg-id="Test1",Test master
 https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
-#EXTINF:-1 tvg-id="Test1",Test blob
-blob:https://livemedia.ma/ce3eab85-df8c-4348-87aa-12836cf3516c
-#EXTINF:-1 tvg-id="Test1",Test blob2
+#EXTINF:-1 tvg-id="Test1",Test tnt
+https://livemedia.ma/alaoula-tnt
 https://livemedia.ma/ce3eab85-df8c-4348-87aa-12836cf3516c
 #EXTINF:-1 tvg-id="Test1",Test1
 https://stream-lb.livemedia.ma/alaoula-tnt/hls/stream_1/playlist.m3u8
