@@ -212,3 +212,61 @@ https://stream-lb.livemedia.ma/alaoula-tnt/hls/stream_2/playlist.m3u8
 #EXTINF:-1 tvg-id="Test1" http-referrer="https://livemedia.ma/",Test3
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/alaoula-tnt/hls/stream_3/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Test1" http-referrer="https://livemedia.ma/alaoula-tnt",Test master2
+#EXTVLCOPT:http-referrer=https://livemedia.ma/alaoula-tnt
+https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+#NAME Stream Marokko (MA)
+#SERVICE 1:64:37f:0:0:0:0:0:0:0:
+#DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41482&extension=ts:RTM 1 Al Aoula
+#DESCRIPTION RTM 1 Al Aoula
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41494&extension=ts:RTM 1 Al Aoula International
+#DESCRIPTION RTM 1 Al Aoula International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41492&extension=ts:RTM 2M Maroc
+#DESCRIPTION RTM 2M Maroc
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/2mmaroc/browser-dash/2mmaroc.mpd:RTM 2M Maroc (#)
+#DESCRIPTION RTM 2M Maroc (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41573&extension=ts:RTM 3 Arryadia HD
+#DESCRIPTION RTM 3 Arryadia HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=104399&extension=ts:RTM 4 Arrabiaa
+#DESCRIPTION RTM 4 Arrabiaa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152979&extension=ts:RTM 5 Al Maghribia
+#DESCRIPTION RTM 5 Al Maghribia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/almaghribia/browser-dash/almaghribia.mpd:RTM 5 Al Maghribia (#)
+#DESCRIPTION RTM 5 Al Maghribia (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152978&extension=ts:RTM 6 Assadissa
+#DESCRIPTION RTM 6 Assadissa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=153033&extension=ts:RTM 7 Aflam
+#DESCRIPTION RTM 7 Aflam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152977&extension=ts:RTM 8 Tamazight
+#DESCRIPTION RTM 8 Tamazight
+#SERVICE 1:64:380:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index.m3u8:Aflam
+#DESCRIPTION Aflam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152973&extension=ts:Al Ons TV
+#DESCRIPTION Al Ons TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//alwifaklive.info%3a1935/live/myStream/playlist.m3u8:Al Wifak News
+#DESCRIPTION Al Wifak News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8:Chada TV
+#DESCRIPTION Chada TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=153034&extension=ts:M24 Maroc
+#DESCRIPTION M24 Maroc
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152980&extension=ts:Medi 1 TV Afrique
+#DESCRIPTION Medi 1 TV Afrique
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=47248&extension=ts:Télé Maroc
+#DESCRIPTION Télé Maroc
