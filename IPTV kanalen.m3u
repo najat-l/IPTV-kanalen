@@ -1,11 +1,4 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-id="livemedia",alaoula-tnt1
-https://stream-lb.livemedia.ma/alaoula-tnt/hls/stream_1/playlist.m3u8
-#EXTINF:-1 tvg-id="livemedia",alaoula-tnt2
-https://stream-lb.livemedia.ma/alaoula-tnt/hls/stream_2/playlist.m3u8
-
-
 #EXTINF:-1 tvg-id="AlAoula.ma@Inter" tvg-logo="https://i.imgur.com/nq53d2N.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="ExoPlayer",Al Aoula Inter (480p)
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=ExoPlayer
@@ -205,29 +198,6 @@ https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protoc
 
 
 #EXTINF:-1 tvg-id="Test1",Test1
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks.m3u8
-#EXTINF:-1 tvg-id="Test2",Test2
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks.m3u8?token=fsQZphIyVegYBVK30ntp6pIHo-72zxlY5UXSUwr-bJQ&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm&expires=1759692788
-#EXTINF:-1 tvg-id="Test3",Test3
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks.m3u8?token=fsQZphIyVegYBVK30ntp6pIHo-72zxlY5UXSUwr-bJQ&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
-#EXTINF:-1 tvg-id="Test4",Test4
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=OjuC5y4ScX3Rn0BB44tP2GiedI6nbbNcgBc0cYpnHns&expires=1759693045&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
-#EXTINF:-1 tvg-id="Test5",Test5
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=OjuC5y4ScX3Rn0BB44tP2GiedI6nbbNcgBc0cYpnHns&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
-
-
-#EXTINF:-1 tvg-id="Test6" http-referrer="https://snrtlive.ma/" http-user-agent="ExoPlayer",Test6
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
-#EXTVLCOPT:http-user-agent=ExoPlayer
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks.m3u8?token=fsQZphIyVegYBVK30ntp6pIHo-72zxlY5UXSUwr-bJQ&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm&expires=1759692788
-#EXTINF:-1 tvg-id="Test7" http-referrer="https://snrt.player.easybroadcast.io/",Test7
-#EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks.m3u8?token=fsQZphIyVegYBVK30ntp6pIHo-72zxlY5UXSUwr-bJQ&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm&expires=1759692788
-
-#EXTINF:-1 tvg-id="Test8" http-referrer="https://snrtlive.ma/" http-user-agent="ExoPlayer",Test8
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
-#EXTVLCOPT:http-user-agent=ExoPlayer
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=OjuC5y4ScX3Rn0BB44tP2GiedI6nbbNcgBc0cYpnHns&expires=1759693045&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
-#EXTINF:-1 tvg-id="Test9" http-referrer="https://snrt.player.easybroadcast.io/",Test9
-#EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=OjuC5y4ScX3Rn0BB44tP2GiedI6nbbNcgBc0cYpnHns&expires=1759693045&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
+https://stream-lb.livemedia.ma/alaoula-tnt/hls/stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="Test1",Test1
+https://stream-lb.livemedia.ma/alaoula-tnt/hls/stream_2/playlist.m3u8
