@@ -224,49 +224,45 @@ https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
 
 
 
-
-
-
-
-
-#NAME Stream Marokko (MA)
-#SERVICE 1:64:37f:0:0:0:0:0:0:0:
-#DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41482&extension=ts:RTM 1 Al Aoula
-#DESCRIPTION RTM 1 Al Aoula
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41494&extension=ts:RTM 1 Al Aoula International
-#DESCRIPTION RTM 1 Al Aoula International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41492&extension=ts:RTM 2M Maroc
-#DESCRIPTION RTM 2M Maroc
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/2mmaroc/browser-dash/2mmaroc.mpd:RTM 2M Maroc (#)
-#DESCRIPTION RTM 2M Maroc (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41573&extension=ts:RTM 3 Arryadia HD
-#DESCRIPTION RTM 3 Arryadia HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=104399&extension=ts:RTM 4 Arrabiaa
-#DESCRIPTION RTM 4 Arrabiaa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152979&extension=ts:RTM 5 Al Maghribia
-#DESCRIPTION RTM 5 Al Maghribia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/almaghribia/browser-dash/almaghribia.mpd:RTM 5 Al Maghribia (#)
-#DESCRIPTION RTM 5 Al Maghribia (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152978&extension=ts:RTM 6 Assadissa
-#DESCRIPTION RTM 6 Assadissa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=153033&extension=ts:RTM 7 Aflam
-#DESCRIPTION RTM 7 Aflam
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152977&extension=ts:RTM 8 Tamazight
-#DESCRIPTION RTM 8 Tamazight
-#SERVICE 1:64:380:0:0:0:0:0:0:0:
-#DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index.m3u8:Aflam
-#DESCRIPTION Aflam
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152973&extension=ts:Al Ons TV
-#DESCRIPTION Al Ons TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//alwifaklive.info%3a1935/live/myStream/playlist.m3u8:Al Wifak News
-#DESCRIPTION Al Wifak News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8:Chada TV
-#DESCRIPTION Chada TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=153034&extension=ts:M24 Maroc
-#DESCRIPTION M24 Maroc
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=152980&extension=ts:Medi 1 TV Afrique
-#DESCRIPTION Medi 1 TV Afrique
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=47248&extension=ts:Télé Maroc
-#DESCRIPTION Télé Maroc
+#EXTINF:-1 tvg-id="AlAoula.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma.png" group-title="" http-referrer="https://livemedia.ma/",Al Aoula Inter
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/alaoula/hls/master.m3u8
+#EXTINF:-1 tvg-id="LaayouneTV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/LaayouneTV.ma.png" group-title="" http-referrer="https://livemedia.ma/",Al Aoula Laâyoune
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/laayounetv/hls/master.m3u8
+#EXTINF:-1 tvg-id="2M.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/2M.ma.png" group-title="" http-referrer="https://livemedia.ma/",2M
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/2m/hls/master.m3u8
+#EXTINF:-1 tvg-id="2MMonde.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/2M.ma.png" group-title="" http-referrer="https://livemedia.ma/",2M Monde +1
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/2m/hls/master.m3u8
+#EXTINF:-1 tvg-id="Arryadia.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Arryadia.ma.png" group-title="" http-referrer="https://livemedia.ma/",Arryadia
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/arryadia/hls/master.m3u8
+#EXTINF:-1 tvg-id="Athaqafia.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Athaqafia.ma.png" group-title="" http-referrer="https://livemedia.ma/",Athaqafia
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/athaqafia/hls/master.m3u8
+#EXTINF:-1 tvg-id="AlMaghribia.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",Al Maghribia
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/almaghribia/hls/master.m3u8
+#EXTINF:-1 tvg-id="Assadissa.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Assadissa.ma.png" group-title="" http-referrer="https://livemedia.ma/",Assadissa
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/assadissa/hls/master.m3u8
+#EXTINF:-1 tvg-id="AflamTV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AflamTV.ma.png" group-title="" http-referrer="https://livemedia.ma/",Aflam TV
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/aflam/hls/master.m3u8
+#EXTINF:-1 tvg-id="TamazightTV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TamazightTV.ma.png" group-title="" http-referrer="https://livemedia.ma/",Tamazight TV
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/tamazight/hls/master.m3u8
+#EXTINF:-1 tvg-id="M24T.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",M24TV
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/m24maroc/hls/master.m3u8
+#EXTINF:-1 tvg-id="Medi1TVMaghreb.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",Medi 1 TV Maghreb
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/medi1tv-maghreb/hls/master.m3u8
+#EXTINF:-1 tvg-id="Medi1TVArabic.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",Medi 1 TV Arabic
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/medi1tv-arabic/hls/master.m3u8
+#EXTINF:-1 tvg-id="TeleMaroc.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",Télé Maroc
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/telemaroc/hls/master.m3u8
