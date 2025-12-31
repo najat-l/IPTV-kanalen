@@ -223,7 +223,9 @@ https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
 
 
 
-
+#EXTINF:-1 tvg-id="AFCON2025.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AFCON2025.ma.png" group-title="" http-referrer="https://livemedia.ma/",Africa Cup 2025
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
 #EXTINF:-1 tvg-id="AlAoula.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma.png" group-title="" http-referrer="https://livemedia.ma/",Al Aoula Inter
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/alaoula/hls/master.m3u8
@@ -242,7 +244,7 @@ https://stream-lb.livemedia.ma/arryadia/hls/master.m3u8
 #EXTINF:-1 tvg-id="Athaqafia.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Athaqafia.ma.png" group-title="" http-referrer="https://livemedia.ma/",Athaqafia
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/athaqafia/hls/master.m3u8
-#EXTINF:-1 tvg-id="AlMaghribia.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",Al Maghribia
+#EXTINF:-1 tvg-id="AlMaghribia.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlMaghribia.ma.png" group-title="" http-referrer="https://livemedia.ma/",Al Maghribia
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/almaghribia/hls/master.m3u8
 #EXTINF:-1 tvg-id="Assadissa.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Assadissa.ma.png" group-title="" http-referrer="https://livemedia.ma/",Assadissa
@@ -254,15 +256,61 @@ https://stream-lb.livemedia.ma/aflam/hls/master.m3u8
 #EXTINF:-1 tvg-id="TamazightTV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TamazightTV.ma.png" group-title="" http-referrer="https://livemedia.ma/",Tamazight TV
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/tamazight/hls/master.m3u8
-#EXTINF:-1 tvg-id="M24T.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",M24TV
+#EXTINF:-1 tvg-id="M24TV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/M24TV.ma.png" group-title="" http-referrer="https://livemedia.ma/",M24TV
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/m24maroc/hls/master.m3u8
-#EXTINF:-1 tvg-id="Medi1TVMaghreb.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",Medi 1 TV Maghreb
+#EXTINF:-1 tvg-id="Medi1TVMaghreb.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Medi1TVMaghreb.ma.png" group-title="" http-referrer="https://livemedia.ma/",Medi 1 TV Maghreb
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/medi1tv-maghreb/hls/master.m3u8
-#EXTINF:-1 tvg-id="Medi1TVArabic.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",Medi 1 TV Arabic
+#EXTINF:-1 tvg-id="Medi1TVArabic.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Medi1TVArabic.ma.png" group-title="" http-referrer="https://livemedia.ma/",Medi 1 TV Arabic
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/medi1tv-arabic/hls/master.m3u8
-#EXTINF:-1 tvg-id="TeleMaroc.ma" tvg-logo="" group-title="" http-referrer="https://livemedia.ma/",Télé Maroc
+#EXTINF:-1 tvg-id="TeleMaroc.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TeleMaroc.ma.png" group-title="" http-referrer="https://livemedia.ma/",Télé Maroc
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/telemaroc/hls/master.m3u8
+
+#EXTINF:-1 tvg-id="AFCON2025.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/AFCON2025.ma.png" group-title="" http-referrer="https://livemedia.ma/",Africa Cup 2025
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
+#EXTINF:-1 tvg-id="AlAoula.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/AlAoula.ma.png" group-title="" http-referrer="https://livemedia.ma/",Al Aoula Inter
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/alaoula/hls/master.m3u8
+#EXTINF:-1 tvg-id="LaayouneTV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/LaayouneTV.ma.png" group-title="" http-referrer="https://livemedia.ma/",Al Aoula Laâyoune
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/laayounetv/hls/master.m3u8
+#EXTINF:-1 tvg-id="2M.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/2M.ma.png" group-title="" http-referrer="https://livemedia.ma/",2M
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/2m/hls/master.m3u8
+#EXTINF:-1 tvg-id="2MMonde.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/2M.ma.png" group-title="" http-referrer="https://livemedia.ma/",2M Monde +1
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/2m/hls/master.m3u8
+#EXTINF:-1 tvg-id="Arryadia.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/Arryadia.ma.png" group-title="" http-referrer="https://livemedia.ma/",Arryadia
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/arryadia/hls/master.m3u8
+#EXTINF:-1 tvg-id="Athaqafia.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/Athaqafia.ma.png" group-title="" http-referrer="https://livemedia.ma/",Athaqafia
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/athaqafia/hls/master.m3u8
+#EXTINF:-1 tvg-id="AlMaghribia.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/AlMaghribia.ma.png" group-title="" http-referrer="https://livemedia.ma/",Al Maghribia
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/almaghribia/hls/master.m3u8
+#EXTINF:-1 tvg-id="Assadissa.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/Assadissa.ma.png" group-title="" http-referrer="https://livemedia.ma/",Assadissa
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/assadissa/hls/master.m3u8
+#EXTINF:-1 tvg-id="AflamTV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/AflamTV.ma.png" group-title="" http-referrer="https://livemedia.ma/",Aflam TV
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/aflam/hls/master.m3u8
+#EXTINF:-1 tvg-id="TamazightTV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/TamazightTV.ma.png" group-title="" http-referrer="https://livemedia.ma/",Tamazight TV
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/tamazight/hls/master.m3u8
+#EXTINF:-1 tvg-id="M24TV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/M24TV.ma.png" group-title="" http-referrer="https://livemedia.ma/",M24TV
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/m24maroc/hls/master.m3u8
+#EXTINF:-1 tvg-id="Medi1TVMaghreb.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/Medi1TVMaghreb.ma.png" group-title="" http-referrer="https://livemedia.ma/",Medi 1 TV Maghreb
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/medi1tv-maghreb/hls/master.m3u8
+#EXTINF:-1 tvg-id="Medi1TVArabic.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/Medi1TVArabic.ma.png" group-title="" http-referrer="https://livemedia.ma/",Medi 1 TV Arabic
+#EXTVLCOPT:http-referrer=https://livemedia.ma/
+https://stream-lb.livemedia.ma/medi1tv-arabic/hls/master.m3u8
+#EXTINF:-1 tvg-id="TeleMaroc.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's%203/TeleMaroc.ma.png" group-title="" http-referrer="https://livemedia.ma/",Télé Maroc
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/telemaroc/hls/master.m3u8
