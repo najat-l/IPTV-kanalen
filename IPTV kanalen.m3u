@@ -33,12 +33,9 @@ https://fl1002.bozztv.com/ga-aflamtv7/index.m3u8
 #EXTVLCOPT:http-user-agent=ExoPlayer
 https://cdn.live.easybroadcast.io/ts_corp/73_tamazight_tccybxt/playlist_dvr.m3u8
 
-AlQuranAlKareemTV.sa
-AlSunnahAlNabawiyahTV.sa
-
-#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa",Al Quran Al Kareem TV (360p)
+#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlQuranAlKareemTV.sa.png" group-title="",Al Quran Al Kareem TV
 https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=qoran_tv&t=11111111
-#EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa",Al Sunnah Al Nabawiyah TV (360p)
+#EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlSunnahAlNabawiyahTV.sa.png" group-title="",Al Sunnah Al Nabawiyah TV
 https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=sunna_tv&t=11111111
 #EXTINF:-1 tvg-id="MakkahTV.sa" tvg-logo="https://i.imgur.com/PRPcOi0.png" group-title="Religious",Makkah TV (576p)
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
@@ -272,11 +269,3 @@ https://stream-lb.livemedia.ma/medi1tv-arabic/hls/master.m3u8
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/telemaroc/hls/master.m3u8
 
-#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlQuranAlKareemTV.sa.png" group-title="",Al Quran Al Kareem TV
-https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=qoran_tv&t=11111111
-#EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlSunnahAlNabawiyahTV.sa.png" group-title="",Al Sunnah Al Nabawiyah TV
-https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=sunna_tv&t=11111111
-#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlQuranAlKareemTV.sa4.png" group-title="",Al Quran Al Kareem TV
-https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=qoran_tv&t=11111111
-#EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlSunnahAlNabawiyahTV.sa4.png" group-title="",Al Sunnah Al Nabawiyah TV
-https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=sunna_tv&t=11111111
