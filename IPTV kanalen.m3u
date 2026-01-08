@@ -88,15 +88,19 @@ https://64c53df624b1b.servers.dvcloud.tv/hls/feedspare/6udfi7v8a3eof6nlps6e9ovfr
 https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
 
 # ——————————————— Turkije ———————————————
-#EXTINF:-1 tvg-id="ATVAvrupa.tr" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/ATVAvrupa.tr.png" group-title="General",ATV Avrupa
-http://185.234.111.229:8000/play/a018
-#EXTINF:-1 tvg-id="ATVAvrupa.tr" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/ATVAvrupa.tr.png" group-title="General",ATV Avrupa
+#EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/ATVAvrupa.tr.png" group-title="General",ATV Avrupa
 https://streamer2.nexgen.bz/ATV/index.m3u8
-#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TRT1.tr.png" group-title="General",TRT 1
+#EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TRT1.tr.png" group-title="General",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRT2.tr" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TRT2.tr.png" group-title="General",TRT 2
+#EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Undefined",TRT 1 (1080p)
+https://trt.daioncdn.net/trt-1/master.m3u8?app=web
+#EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TRT2.tr.png" group-title="General",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRT3.tr" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TRT3.tr.png" group-title="General",TRT 3
+#EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-logo="https://i.imgur.com/iOCQdyD.png" group-title="Undefined",TRT 2 (720p)
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT3.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TRT3.tr.png" group-title="General",TRT 3
+https://tv-trt3.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT3.tr@SD" tvg-logo="https://i.imgur.com/JrWFwBd.png" group-title="Undefined",TRT 3
 https://tv-trt3.live.trt.com.tr/master.m3u8
 
 # ——————————————— Nieuws ———————————————
@@ -228,14 +232,6 @@ http://stream.tvtap.net:8081/live/nl-npo3.stream/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-logo="https://i.postimg.cc/Ghdyjjy8/atvavrupa.png" group-title="Undefined",ATV Avrupa (576p) [Not 24/7]
-https://streamer2.nexgen.bz/ATV/index.m3u8
-#EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Undefined",TRT 1 (1080p)
-https://trt.daioncdn.net/trt-1/master.m3u8?app=web
-#EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-logo="https://i.imgur.com/iOCQdyD.png" group-title="Undefined",TRT 2 (720p)
-https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRT3.tr@SD" tvg-logo="https://i.imgur.com/JrWFwBd.png" group-title="Undefined",TRT 3
-https://tv-trt3.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-logo="https://i.imgur.com/dEfI2M9.png" group-title="News",TRT Arabi (1080p) [Not 24/7]
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 
