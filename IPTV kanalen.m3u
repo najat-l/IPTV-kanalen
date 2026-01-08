@@ -218,30 +218,16 @@ https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
 
 
 
-#EXTINF:-1 tvg-id="Test1",Test10
-http://stream.tvtap.net:8081/live/nl-npo1.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NPO1.nl" status="blocked",NPO 1 (1080p) [Geo-blocked]
 http://stream.tvtap.net:8081/live/nl-npo1.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="NPO1.nl" status="error",NPO 1 (342p) [Geo-blocked]
-http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo1/npo1.isml/.m3u8
 #EXTINF:-1 tvg-id="NPO2.nl" status="blocked",NPO 2 (302p) [Geo-blocked]
 http://stream.tvtap.net:8081/live/nl-npo2.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="NPO2.nl" status="error",NPO 2 (342p)
-http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo2/npo2.isml/.m3u8
 #EXTINF:-1 tvg-id="NPO3.nl" status="blocked",NPO 3 (1080p) [Geo-blocked]
 http://stream.tvtap.net:8081/live/nl-npo3.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="NPO3.nl" status="error",NPO 3 (342p) [Not 24/7]
-http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.isml/.m3u8
-#EXTINF:-1 tvg-id="NPONieuws.nl" status="error",NPO Nieuws (576p)
-http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/thematv/journaal24/journaal24.isml/.m3u8
-#EXTINF:-1 tvg-id="NPOPolitiek.nl" status="error",NPO Politiek (576p)
-http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/thematv/politiek24/politiek24.isml/.m3u8
 
 
 
-#EXTINF:-1 tvg-id="DeenTV.uk@SD" tvg-logo="https://i.postimg.cc/g0n2Ggx7/deentv.png" group-title="General",Deen TV (576p) [Not 24/7]
-https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
 #EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-logo="https://i.postimg.cc/Ghdyjjy8/atvavrupa.png" group-title="Undefined",ATV Avrupa (576p) [Not 24/7]
 https://streamer2.nexgen.bz/ATV/index.m3u8
 #EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/512px-TRT_1_logo_%282021-%29.svg.png" group-title="Undefined",TRT 1 (1080p)
@@ -252,82 +238,33 @@ https://tv-trt2.medya.trt.com.tr/master.m3u8
 https://tv-trt3.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-logo="https://i.imgur.com/dEfI2M9.png" group-title="News",TRT Arabi (1080p) [Not 24/7]
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="AlArabiyaPrograms.ae@SD" tvg-logo="https://i.imgur.com/Hoc3cfO.png" group-title="Documentary;News",Al Arabiya Programs (1080p)
-https://d1j4r34gq3qw9y.cloudfront.net/out/v1/96804f3a14864641a21c25e8ca9afb74/index.m3u8
+
 #EXTINF:-1 tvg-id="AlArabyTV.qa@SD" tvg-logo="https://i.imgur.com/YMqWEe4.png" group-title="News",Al Araby TV (1080p)
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabyTV2.qa@SD" tvg-logo="https://i.imgur.com/Gp5mNea.png" group-title="News",Al Araby TV 2 (1080p)
 https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa@SD" tvg-logo="https://i.imgur.com/5dNJlLo.png" group-title="Documentary",Al Jazeera Documentary (1080p) [Geo-blocked]
-https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News",Al Jazeera English (1080p)
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (1080i)
-http://78.130.250.2:8023/play/a02e/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.gr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (1080p)
-http://62.210.211.188:2095/play/a00d
-#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/natgeohd/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.fi@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (Finland) (720p) [Geo-blocked]
-https://live-fi.tvkaista.net/national-geographic/live.m3u8?hd=true
+
+
 #EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae@HD" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="Documentary",National Geographic Abu Dhabi HD (1080p)
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic East
 https://fl1.moveonjoy.com/National_Geographic/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NATIONAL_GEOGRAPHIC_CHANNEL/images/LOGO_HD/image.png" group-title="Documentary",National Geographic HD (1080p)
-http://103.178.78.151:7505/play/a12o/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.us@HDEast" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic HD East (720p) [Not 24/7]
-https://tvpass.org/live/NationalGeographicEast/hd
-#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Latin America
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/NAT_GEO/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Latin America South (1080p)
-http://38.183.182.166:8000/play/a0vd/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (1080i)
-http://78.130.250.2:8023/play/a02c/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/natgeowild/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild East
 https://fl1.moveonjoy.com/Nat_Geo_Wild/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="Documentary",National Geographic Wild HD (1080p)
-http://103.167.255.18:8085/play/a0lt/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.us@HDEast" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild HD East (720p) [Not 24/7]
-https://tvpass.org/live/NationalGeographicWildEast/hd
+
+
 #EXTINF:-1 tvg-id="FIFAPlus.uk@English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ French (720p)
-https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="FIFAPlus.uk@German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ German (720p)
-https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="FIFAPlus.uk@HispanicAmerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ Hispanic America (720p)
-https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
-#EXTINF:-1 tvg-id="FIFAPlus.uk@Italy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ Italy (720p)
-https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="FIFAPlus.uk@Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ Portuguese (720p)
-https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="FIFAPlus.uk@Spain" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ Spain (720p)
-https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@UnitedStates" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ United States (720p)
 https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlusWomen.uk@English" tvg-logo="https://i.imgur.com/xy9ZxVO.png" group-title="Sports",FIFA+ Women (720p)
 https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="Kids",Disney Channel (576p)
-http://84.54.128.52:9090/play/3006/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.de@SD" tvg-logo="https://i.postimg.cc/854KwmH1/disneychannel.png" group-title="Kids",Disney Channel (576p)
-https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="Kids",Disney Channel (576p)
-http://103.167.255.18:8085/play/a0kq/index.m3u8
+
+
 #EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-logo="https://i.postimg.cc/854KwmH1/disneychannel.png" group-title="Kids",Disney Channel (720p)
 https://fl31.moveonjoy.com/DISNEY/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Animation;Kids",Disney Channel Latin America (1080p)
-http://201.230.121.186:8000/play/a0fb/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@PanregionalHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Animation;Kids",Disney Channel Latin America Panregional HD (1080p)
-http://201.217.246.177:8000/play/a02r/index.m3u8
-#EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="Kids",Disney International HD (1080p)
-http://103.167.255.18:8085/play/a0ld/index.m3u8
-#EXTINF:-1 tvg-id="DisneyJr.tr@SD" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png" group-title="Animation;Kids",Disney Jr. (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/disneyjunior/index.m3u8
-#EXTINF:-1 tvg-id="DisneyJunior.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_JUNIOR/images/LOGO_HD/image.png" group-title="Kids",Disney Junior (576p)
-http://103.167.255.18:8085/play/a0k7/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://i.postimg.cc/KvRqrLg2/disneyjunior.png" group-title="Kids",Disney Junior East
 https://fl1.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://i.postimg.cc/MKNssTyj/disneyxd.png" group-title="Kids",Disney XD (720p)
@@ -340,16 +277,64 @@ https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/majid/majid_hls_
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8
 #EXTINF:-1 tvg-id="CartoonClassics.pl@FAST" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/3227c06e-333b-4b1b-b657-3e3ab99ebd06-width200-quality90.jpeg" group-title="Animation;Kids",Cartoon Classics
 https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8
-#EXTINF:-1 tvg-id="GoldenEagleCartoon.cn@SD" tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="Animation;Kids",Golden Eagle Cartoon
-http://1.24.190.98:10080/hls/51/index.m3u8
-#EXTINF:-1 tvg-id="JiaJiaCartoon.cn@SD" tvg-logo="https://i.imgur.com/0TLG3Xk.png" group-title="Kids",JiaJia Cartoon
-http://49.113.179.174:4022/udp/238.125.0.158:5140
-#EXTINF:-1 tvg-id="TVSPinballNetwork.us@SD" tvg-logo="https://i.imgur.com/HHmc14i.png" group-title="Kids",TVS Pinball Network (480p)
-https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
-#EXTINF:-1 tvg-id="XtremaCartoons.ar@SD" tvg-logo="https://i.imgur.com/X2d8y4e.png" http-referrer="https://xtrematv.com/?p=1390" group-title="Animation;Kids",Xtrema Cartoons
-#EXTVLCOPT:http-referrer=https://xtrematv.com/?p=1390
-https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
-#EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="Kids",ZB Cartoon (1080p)
-https://server.zillarbarta.com/zbcatun/video.m3u8
-#EXTINF:-1 tvg-id="YouManCartoonChannel.cn@SD" tvg-logo="https://i.imgur.com/GZInf2W.png" group-title="Animation;Kids",优漫卡通 (576p)
-http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
+
+
+
+
+
+
+
+weg
+
+#EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="Kids",Disney Channel (576p)
+http://84.54.128.52:9090/play/3006/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.de@SD" tvg-logo="https://i.postimg.cc/854KwmH1/disneychannel.png" group-title="Kids",Disney Channel (576p)
+https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="Kids",Disney Channel (576p)
+http://103.167.255.18:8085/play/a0kq/index.m3u8
+#EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="Kids",Disney International HD (1080p)
+http://103.167.255.18:8085/play/a0ld/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJunior.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_JUNIOR/images/LOGO_HD/image.png" group-title="Kids",Disney Junior (576p)
+http://103.167.255.18:8085/play/a0k7/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Animation;Kids",Disney Channel Latin America (1080p)
+http://201.230.121.186:8000/play/a0fb/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@PanregionalHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Animation;Kids",Disney Channel Latin America Panregional HD (1080p)
+http://201.217.246.177:8000/play/a02r/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJr.tr@SD" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png" group-title="Animation;Kids",Disney Jr. (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/disneyjunior/index.m3u8
+
+
+#EXTINF:-1 tvg-id="NationalGeographic.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (1080i)
+http://78.130.250.2:8023/play/a02e/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.gr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (1080p)
+http://62.210.211.188:2095/play/a00d
+#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/natgeohd/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.fi@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (Finland) (720p) [Geo-blocked]
+https://live-fi.tvkaista.net/national-geographic/live.m3u8?hd=true
+#EXTINF:-1 tvg-id="NationalGeographic.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NATIONAL_GEOGRAPHIC_CHANNEL/images/LOGO_HD/image.png" group-title="Documentary",National Geographic HD (1080p)
+http://103.178.78.151:7505/play/a12o/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.us@HDEast" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic HD East (720p) [Not 24/7]
+https://tvpass.org/live/NationalGeographicEast/hd
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Latin America
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/NAT_GEO/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Latin America South (1080p)
+http://38.183.182.166:8000/play/a0vd/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (1080i)
+http://78.130.250.2:8023/play/a02c/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/natgeowild/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="Documentary",National Geographic Wild HD (1080p)
+http://103.167.255.18:8085/play/a0lt/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.us@HDEast" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild HD East (720p) [Not 24/7]
+https://tvpass.org/live/NationalGeographicWildEast/hd
+
+
+#EXTINF:-1 tvg-id="AlArabiyaPrograms.ae@SD" tvg-logo="https://i.imgur.com/Hoc3cfO.png" group-title="Documentary;News",Al Arabiya Programs (1080p)
+https://d1j4r34gq3qw9y.cloudfront.net/out/v1/96804f3a14864641a21c25e8ca9afb74/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa@SD" tvg-logo="https://i.imgur.com/5dNJlLo.png" group-title="Documentary",Al Jazeera Documentary (1080p) [Geo-blocked]
+https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8
+
+
+#EXTINF:-1 tvg-id="DeenTV.uk@SD" tvg-logo="https://i.postimg.cc/g0n2Ggx7/deentv.png" group-title="General",Deen TV (576p) [Not 24/7]
+https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
