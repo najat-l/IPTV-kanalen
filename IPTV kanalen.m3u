@@ -142,27 +142,12 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="AsharqDocumentary.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AsharqDocumentary.sa.png" group-title="Documentary",Asharq Documentary
 https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
-
-#EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographicAbuDhabi.ae.png" group-title="Documentary",National Geographic Abu Dhabi
-https://vo-live.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographicAbuDhabi.ae.png" group-title="Documentary",National Geographic Abu Dhabi
+#EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae@HD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographicAbuDhabi.ae.png" group-title="Documentary",National Geographic Abu Dhabi
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae@HD" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="Documentary",National Geographic Abu Dhabi HD (1080p)
-https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8
-
 #EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographic.us@East.png" group-title="Documentary",National Geographic East
-https://fl3.moveonjoy.com/National_Geographic/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic East
 https://fl1.moveonjoy.com/National_Geographic/index.m3u8
-
-#EXTINF:-1 tvg-id="NationalGeographic.us@HDEast" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographic.us@HDEast.png" group-title="Documentary",National Geographic HD East
-https://tvpass.org/live/NationalGeographicEast/hd
 #EXTINF:-1 tvg-id="NationalGeographicWild.us@East" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographicWild.us@East.png" group-title="Documentary",National Geographic Wild East
-https://fl3.moveonjoy.com/Nat_Geo_Wild/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild East
 https://fl1.moveonjoy.com/Nat_Geo_Wild/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.us@HDEast" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographicWild.us@HDEast.png" group-title="Documentary",National Geographic Wild HD East
-https://tvpass.org/live/NationalGeographicWildEast/hd
 
 # ——————————————— Entertainment ———————————————
 #EXTINF:-1 tvg-id="Ramez.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Ramez.sa.png" group-title="Comedy;Entertainment",Ramez
