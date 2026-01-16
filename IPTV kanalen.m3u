@@ -142,6 +142,9 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="AsharqDocumentary.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AsharqDocumentary.sa.png" group-title="Documentary",Asharq Documentary
 https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="AsharqDocumentary.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AsharqDocumentary.sa.png" group-title="Documentary" http-referrer="https://now.asharq.com/live/documentary/",Asharq Documentary http
+#EXTVLCOPT:http-referrer=https://now.asharq.com/live/documentary/
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae@HD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographicAbuDhabi.ae.png" group-title="Documentary",National Geographic Abu Dhabi
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NationalGeographic.us@East.png" group-title="Documentary",National Geographic East
@@ -200,13 +203,3 @@ https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protoc
 #EXTINF:-1 tvg-id="AFCON2025.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AFCON2025.ma.png" group-title="" http-referrer="https://livemedia.ma/",Africa Cup 2025
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
-
-
-
-
-#EXTINF:-1 tvg-id="NPO1.nl" status="blocked",NPO 1 (1080p) [Geo-blocked]
-http://stream.tvtap.net:8081/live/nl-npo1.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="NPO2.nl" status="blocked",NPO 2 (302p) [Geo-blocked]
-http://stream.tvtap.net:8081/live/nl-npo2.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="NPO3.nl" status="blocked",NPO 3 (1080p) [Geo-blocked]
-http://stream.tvtap.net:8081/live/nl-npo3.stream/playlist.m3u8
