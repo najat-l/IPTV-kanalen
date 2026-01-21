@@ -88,10 +88,6 @@ https://royatv-live.daioncdn.net/royatv/royatv.m3u8
 https://64c53df624b1b.servers.dvcloud.tv/hls/feedspare/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
 #EXTINF:-1 tvg-id="HannibalTV.tn@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/HannibalTV.png" group-title="General",Hannibal TV
 https://games1.elahmad.xyz/tv776_www.elahmad.com_hannibal/index.m3u8?token=e00dbc7e1cf08d1c2aa6c96a677a0eca79fb3085-2291046fda0fb25281299512a267c045-1769004151-1769002351
-#EXTINF:-1 tvg-id="HannibalTV.tn@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/HannibalTV.png" group-title="General",Hannibal TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120686/hannibaltv/playlist.m3u8
-#EXTINF:-1 tvg-id="HannibalTV.tn@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/HannibalTV.png" group-title="General",Hannibal TV
-http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/1253
 #EXTINF:-1 tvg-id="DeenTV.uk@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/DeenTV.uk.png" group-title="Religious",Deen TV
 https://cd198.anystream.uk:8082/hls/d33ntv/index.m3u8
 
