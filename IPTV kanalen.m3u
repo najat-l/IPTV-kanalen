@@ -45,9 +45,9 @@ https://stream-lb.livemedia.ma/telemaroc/hls/master.m3u8
 
 # ——————————————— Islam ———————————————
 #EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlQuranAlKareemTV.sa.png" group-title="Religious",Al Quran Al Kareem TV
-https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=qoran_tv&t=11111111
+https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=qoran_tv&t=111111111
 #EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlSunnahAlNabawiyahTV.sa.png" group-title="Religious",Al Sunnah Al Nabawiyah TV
-https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=sunna_tv&t=11111111
+https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=sunna_tv&t=111111111
 #EXTINF:-1 tvg-id="MakkahTV.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/MakkahTV.sa.png" group-title="Religious",Makkah TV
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 
