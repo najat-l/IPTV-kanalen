@@ -199,6 +199,6 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5
 https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
 
 # ——————————————— AlAoula TNT ———————————————
-#EXTINF:-1 tvg-id="AFCON2025.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AFCON2025.ma.png" group-title="" http-referrer="https://livemedia.ma/",Africa Cup 2025
+#EXTINF:-1 tvg-id="AlAoula.ma@TNT" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png" group-title="General" http-referrer="https://livemedia.ma/",Al Aoula TNT
 #EXTVLCOPT:http-referrer=https://livemedia.ma/
 https://stream-lb.livemedia.ma/alaoula-tnt/hls/master.m3u8
