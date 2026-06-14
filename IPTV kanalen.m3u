@@ -202,3 +202,10 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5
 # ——————————————— Nederlands ———————————————
 #EXTINF:-1 tvg-id="AT5.nl" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AT5.nl.png" group-title="News",AT5
 https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
+
+# ——————————————— WK 2026 ———————————————
+#EXTINF:-1 tvg-id="WK2026" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/WK2026.png" group-title="Sports",WK 2026
+https://npo.prd.cdn.bcms.kpn.com/e3346180eaa65262f4b3ef0c5bd9baa5_1781539486/live/npo/u_3_4/npoplus/drm/dash_cenc/npo-1/0/0/0/npo-1.isml/dash/npo-1-video=2499968-1068871850136.dash
+
+#EXTINF:-1 tvg-id="WK2026" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/WK2026.png" group-title="Sports",WK 2026
+https://npo.prd.cdn.bcms.kpn.com/e3346180eaa65262f4b3ef0c5bd9baa5_1781539486/live/npo/u_3_4/npoplus/drm/dash_cenc/npo-1/0/0/0/npo-1.isml/dash/npo-1-video=2499968-1068871850136.dash
