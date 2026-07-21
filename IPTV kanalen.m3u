@@ -55,6 +55,10 @@ https://www.elahmad.ru/tv/m3u8/online_live_14_tv.m3u8?id=sunna_tv&t=111111111
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-id="SharjahRadioQuran.ae" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/SharjahRadioQuran.ae.png" group-title="Religious",Sharjah Radio Quran
 https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8
+#EXTINF:-1 tvg-id="IqraaQuran.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/IqraaQuran.sa.png" group-title="Religious",Iqraa Quran
+https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
+#EXTINF:-1 tvg-id="BahrainQuran.bh" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/BahrainQuran.bh.png" group-title="Religious",Bahrain Quran
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8
 
 # ——————————————— Arabisch ———————————————
 #EXTINF:-1 tvg-id="QatarTelevision.qa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/QatarTelevision.qa.png" group-title="General",Qatar Television
@@ -67,10 +71,6 @@ https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8
 https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="IqraaArabic.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/IqraaArabic.sa.png" group-title="Religious",Iqraa Arabic
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8
-#EXTINF:-1 tvg-id="IqraaQuran.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/IqraaQuran.sa.png" group-title="Religious",Iqraa Quran
-https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
-#EXTINF:-1 tvg-id="BahrainQuran.bh" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/BahrainQuran.bh.png" group-title="Religious",Bahrain Quran
-https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BahrainTV.bh" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/BahrainTV.bh.png" group-title="General",Bahrain TV
 https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BahrainInternational.bh" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/BahrainInternational.bh.png" group-title="General",Bahrain International
