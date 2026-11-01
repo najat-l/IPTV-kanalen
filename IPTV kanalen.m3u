@@ -204,6 +204,20 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5
 https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
 
 
+#EXTINF:-1 tvg-id="AlAoula.ma@InterTST0" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Al Aoula Inter TST0
+#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-id="AlAoula.ma@InterTST1" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0",Al Aoula Inter TST1
+#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-id="AlAoula.ma@InterTST2" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="ExoPlayer",Al Aoula Inter TST2
+#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-user-agent=ExoPlayer
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8
 
 #EXTINF:-1 tvg-id="2MMonde.ma@SD" tvg-logo="https://i.imgur.com/MvpntzA.png" http-referrer="http://www.radio2m.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" group-title="General",2M Monde (360p)
 #EXTVLCOPT:http-referrer=http://www.radio2m.ma/
