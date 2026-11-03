@@ -65,6 +65,7 @@ CHANNELS = [
 
 def generate_snrt_m3u():
   m3u_content = "#EXTM3U\n"
+  referrer_url = "https://snrt.player.easybroadcast.io/"
 
   for channel in CHANNELS:
     name = channel["name"]
@@ -114,18 +115,18 @@ def generate_snrt_m3u():
       except Exception as e:
         print(f"Fout bij verwerken van {name}: {e}")
 
-    # Bouw de regels op exact volgens jouw werkende layout met https://snrtlive.ma/
+    # Bouw de regels op met de nieuwe referrer
     m3u_content += (
         f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}"'
-        f' group-title="{group}" http-referrer="https://snrtlive.ma/",{name}\n'
+        f' group-title="{group}" http-referrer="{referrer_url}",{name}\n'
     )
-    m3u_content += "#EXTVLCOPT:http-referrer=https://snrtlive.ma/\n"
+    m3u_content += f"#EXTVLCOPT:http-referrer={referrer_url}\n"
     m3u_content += f"{final_stream_url}\n"
 
   # Schrijf weg naar snrt.m3u
   with open("snrt.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_content)
-  print("snrt.m3u succesvol aangemaakt met de juiste layout!")
+  print("snrt.m3u succesvol bijgewerkt met de nieuwe referrer!")
 
 
 if __name__ == "__main__":
