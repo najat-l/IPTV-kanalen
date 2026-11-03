@@ -2,7 +2,6 @@ import json
 import urllib.parse
 import urllib.request
 
-# Jouw zenderslijst met de exacte layout-attributen
 CHANNELS = [
     {
         "name": "Al Aoula",
@@ -64,7 +63,6 @@ CHANNELS = [
 
 
 def fetch_fresh_stream_url(raw_url):
-  """Haalt tokens op voor EasyBroadcast URLs en zet ze om naar de werkende chunks URL."""
   user_agent = "Mozilla/5.0"
   final_stream_url = raw_url
 
@@ -132,16 +130,14 @@ def fetch_fresh_stream_url(raw_url):
 
 
 def update_playlist():
-  input_filename = "IPTV kanalen2.m3u"
-  output_filename = "IPTV kanalen2.m3u"
+  input_filename = "kanalen.m3u"
+  output_filename = "kanalen.m3u"
 
-  # Stap 1: Genereer verse URLs en tokens voor alle kanalen in CHANNELS op basis van tvg-id
   updated_channels = {}
   for channel in CHANNELS:
     fresh_url = fetch_fresh_stream_url(channel["url"])
     updated_channels[channel["tvg_id"]] = fresh_url
 
-  # Stap 2: Lees het bestaande M3U-bestand regel voor regel uit
   try:
     with open(input_filename, "r", encoding="utf-8") as f:
       lines = f.readlines()
@@ -154,7 +150,6 @@ def update_playlist():
   while i < len(lines):
     line = lines[i]
 
-    # Zoek naar een #EXTINF regel om te kijken of hier een bekende tvg-id in staat
     if line.startswith("#EXTINF:"):
       matched_tvg_id = None
       for tvg_id in updated_channels.keys():
@@ -163,36 +158,25 @@ def update_playlist():
           break
 
       if matched_tvg_id:
-        # Dit kanaal moet bijgewerkt worden!
-        new_lines.append(line)  # Behoud de originele #EXTINF regel
-        
-        # Sla eventuele oude optie-regels (#EXTVLCOPT) direct na #EXTINF over tot we bij de URL zijn
+        new_lines.append(line)
         i += 1
         while i < len(lines) and lines[i].startswith("#EXTVLCOPT:"):
-          i += 1  # Overslaan, zodat we de oude stream-URL/opties vervangen
+          i += 1
 
-        # Voeg de eventuele VLC opties toe (indien gewenst) of schrijf direct de nieuwe verse URL
-        # We halen de verse URL op uit ons dictionary
         new_url = updated_channels[matched_tvg_id]
         new_lines.append(f"{new_url}\n")
         
-        # Zoek in de originele lijst of er na de URL nog lege regels stonden en sla de oude URL over
         while i < len(lines) and not lines[i].startswith("#EXTINF") and not lines[i].startswith("# ———") and lines[i].strip() != "" and "http" in lines[i]:
           i += 1
         continue
 
-    # Als het geen gematcht kanaal is, behouden we de regel exact zoals die is
     new_lines.append(line)
     i += 1
 
-  # Stap 3: Schrijf het bijgewerkte bestand weer weg
   with open(output_filename, "w", encoding="utf-8") as f:
     f.writelines(new_lines)
 
-  print(
-      f"Bestand '{output_filename}' succesvol bijgewerkt op basis van tvg-id"
-      " met behoud van volgorde!"
-  )
+  print(f"Bestand '{output_filename}' succesvol bijgewerkt!")
 
 
 if __name__ == "__main__":
