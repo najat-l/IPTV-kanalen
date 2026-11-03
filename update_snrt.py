@@ -5,7 +5,7 @@ import urllib.request
 # Jouw zenderslijst met de exacte layout-attributen
 CHANNELS = [
     {
-        "name": "Al Aoula",
+        "name": "Al Aoula Inter",
         "tvg_id": "AlAoula.ma@Inter",
         "logo": "https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png",
         "group": "General",
@@ -65,7 +65,8 @@ CHANNELS = [
 
 def generate_snrt_m3u():
   m3u_content = "#EXTM3U\n"
-  referrer_url = "https://snrt.player.easybroadcast.io/"
+  referrer = "https://snrtlive.ma/"
+  user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"
 
   for channel in CHANNELS:
     name = channel["name"]
@@ -82,7 +83,7 @@ def generate_snrt_m3u():
       )
       try:
         req = urllib.request.Request(
-            api_url, headers={"User-Agent": "Mozilla/5.0"}
+            api_url, headers={"User-Agent": user_agent}
         )
         with urllib.request.urlopen(req) as resp:
           event_data = json.loads(resp.read().decode())
@@ -93,7 +94,7 @@ def generate_snrt_m3u():
           if stream_url:
             token_api_url = f"https://token.easybroadcast.io/all?url={urllib.parse.quote(stream_url)}"
             token_req = urllib.request.Request(
-                token_api_url, headers={"User-Agent": "Mozilla/5.0"}
+                token_api_url, headers={"User-Agent": user_agent}
             )
 
             with urllib.request.urlopen(token_req) as token_resp:
@@ -115,18 +116,22 @@ def generate_snrt_m3u():
       except Exception as e:
         print(f"Fout bij verwerken van {name}: {e}")
 
-    # Bouw de regels op met de nieuwe referrer
+    # Bouw de regels op exact volgens de door jou opgegeven layout
     m3u_content += (
         f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}"'
-        f' group-title="{group}" http-referrer="{referrer_url}",{name}\n'
+        f' group-title="{group}" http-referrer="{referrer}"'
+        f' http-user-agent="{user_agent}",{name}\n'
     )
-    m3u_content += f"#EXTVLCOPT:http-referrer={referrer_url}\n"
+    m3u_content += f"#EXTVLCOPT:http-referrer={referrer}\n"
+    m3u_content += f"#EXTVLCOPT:http-user-agent={user_agent}\n"
     m3u_content += f"{final_stream_url}\n"
 
   # Schrijf weg naar snrt.m3u
   with open("snrt.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_content)
-  print("snrt.m3u succesvol bijgewerkt met de nieuwe referrer!")
+  print(
+      "snrt.m3u succesvol bijgewerkt met de referrer en user-agent layout!"
+  )
 
 
 if __name__ == "__main__":
