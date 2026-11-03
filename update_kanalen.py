@@ -132,6 +132,8 @@ def fetch_fresh_stream_url(raw_url):
 def update_playlist():
   input_filename = "kanalen.m3u"
   output_filename = "kanalen.m3u"
+  referrer = "https://snrtlive.ma/"
+  user_agent = "Mozilla/5.0"
 
   updated_channels = {}
   for channel in CHANNELS:
@@ -158,14 +160,23 @@ def update_playlist():
           break
 
       if matched_tvg_id:
+        # Schrijf de #EXTINF regel
         new_lines.append(line)
+        
+        # Sla oude EXTVLCOPT regels over
         i += 1
         while i < len(lines) and lines[i].startswith("#EXTVLCOPT:"):
           i += 1
 
+        # Voeg de nodige VLC opties weer toe
+        new_lines.append(f"#EXTVLCOPT:http-referrer={referrer}\n")
+        new_lines.append(f"#EXTVLCOPT:http-user-agent={user_agent}\n")
+
+        # Schrijf de nieuwe verse URL
         new_url = updated_channels[matched_tvg_id]
         new_lines.append(f"{new_url}\n")
         
+        # Sla de oude URL over in de originele regels
         while i < len(lines) and not lines[i].startswith("#EXTINF") and not lines[i].startswith("# ———") and lines[i].strip() != "" and "http" in lines[i]:
           i += 1
         continue
@@ -176,7 +187,7 @@ def update_playlist():
   with open(output_filename, "w", encoding="utf-8") as f:
     f.writelines(new_lines)
 
-  print(f"Bestand '{output_filename}' succesvol bijgewerkt!")
+  print(f"Bestand '{output_filename}' succesvol bijgewerkt inclusief EXTVLCOPT regels!")
 
 
 if __name__ == "__main__":
