@@ -1,8 +1,8 @@
-name: Update SNRT M3U
+name: Update IPTV M3U Playlists
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Dit betekent: draai elk heel uur, 24/7
+    - cron: '0 * * * *'  # Elk heel uur, 24/7
   workflow_dispatch:
 
 permissions:
@@ -20,12 +20,15 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Script uitvoeren
+      - name: Update SNRT M3U uitvoeren
         run: python update_snrt.py
 
-      - name: Wijzigingen opslaan naar snrt.m3u in GitHub
+      - name: Update Kanalen M3U uitvoeren
+        run: python update_kanalen.py
+
+      - name: Wijzigingen opslaan in GitHub
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
-          git add snrt.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van snrt.m3u tokens" && git push)
+          git add snrt.m3u kanalen.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van snrt.m3u en kanalen.m3u tokens" && git push)
