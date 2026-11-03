@@ -2,9 +2,14 @@ name: Update SNRT M3U
 
 on:
   schedule:
-    # Draait automatisch elke 6 uur (kun je zelf aanpassen indien gewenst)
+    # Draait automatisch elke 6 uur
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Hiermee kun je de knop handmatig indrukken op GitHub om direct te testen
+  workflow_dispatch: # Zodat je de knop handmatig kunt indrukken
+
+# --- DIT BLOK ZORGT ERVOOR DAT GIT MAG WEGWRITEN ---
+permissions:
+  contents: write
+-----------------------------------------------------
 
 jobs:
   build:
