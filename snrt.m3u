@@ -2,27 +2,27 @@
 #EXTINF:-1 tvg-id="AlAoula.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Al Aoula Inter
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=e0N_BnQNRd97LKYpOnM1BZvt_EKr8Bh1IppojF02ICE&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm&expires=1793716261
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=b8irbE7W2j4PSgq1NiWuVtRuQmHKCEPNOMBd1K0CQJM&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm&expires=1793718478
 #EXTINF:-1 tvg-id="LaayouneTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/LaayouneTV.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Al Aoula Laâyoune
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/playlist_dvr.m3u8?token=T6oUJICT10GLvidzXbv1nzeo48fvAoWLxOOzCY0XE6w&token_path=%2Fabr_corp%2F73_laayoune_pgagr52&expires=1793716261
+https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/playlist_dvr.m3u8?token=Oa4veVKMl-rSvDEMRs_e2gBN8VHHGJy1m5X4YfGoJmk&token_path=%2Fabr_corp%2F73_laayoune_pgagr52&expires=1793718479
 #EXTINF:-1 tvg-id="Arryadia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Arryadia.png" group-title="Sports" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Arryadia
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8?token=tEMIpJeu_6O-QGt8YaMPlQ43LtfG1OhTm2bmu53HmL8&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0&expires=1793716262
+https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8?token=KeNKjEhk-XQveWeWLhoXFsS1Yp2c9_oUGBN8iTBSTUc&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0&expires=1793718479
 #EXTINF:-1 tvg-id="Athaqafia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Athaqafia.png" group-title="Culture" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Athaqafia
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8?token=1I-bfCaG1VTwmJqY_5OlM9-M98g6kcGW-6WKrosl0pA&token_path=%2Fabr_corp%2F73_arrabia_hthcj4p&expires=1793716262
+https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8?token=29t0GjGwQh_uneg6u1VQvSYOnVtku0Jj23ICmWJKvcY&token_path=%2Fabr_corp%2F73_arrabia_hthcj4p&expires=1793718480
 #EXTINF:-1 tvg-id="AlMaghribia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlMaghribia.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Al Maghribia
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/playlist_dvr.m3u8?token=TkAmGAQUw4Y7b8Wx1Dg2vgC3t-J472PHRxE8QywrsqM&token_path=%2Fabr_corp%2F73_almaghribia_83tz85q&expires=1793716263
+https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/playlist_dvr.m3u8?token=3htQcGf0ysyMbPWNvUfD3LVPojaAb8FHmUzlwcDd7BU&token_path=%2Fabr_corp%2F73_almaghribia_83tz85q&expires=1793718481
 #EXTINF:-1 tvg-id="Assadissa.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Assadissa.png" group-title="Religious" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Assadissa
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/playlist_dvr.m3u8?token=BnzD_oOFkbhi9mob7_mg-8WbS1E6-UNiMxE2LqmVwU0&token_path=%2Fabr_corp%2F73_assadissa_7b7u5n1&expires=1793716263
+https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/playlist_dvr.m3u8?token=fDvqBfo1cLsHS3xMczw14u-Re78K5I4cQlBcEDH4t1s&token_path=%2Fabr_corp%2F73_assadissa_7b7u5n1&expires=1793718481
 #EXTINF:-1 tvg-id="AflamTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AflamTV.png" group-title="Movies" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Aflam TV
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
@@ -30,4 +30,4 @@ https://stream-lb.livemediama.com/aflam/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="TamazightTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TamazightTV.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",Tamazight TV
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/playlist_dvr.m3u8?token=Uuu-_Ot0UzgPQpIP49C66wLmCt6x0xb70G8mqk1d5fM&token_path=%2Fabr_corp%2F73_tamazight_tccybxt&expires=1793716264
+https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/playlist_dvr.m3u8?token=_xVgvWhzzYZG3SLCqmb-H3wAT1wtSoyCfoBIEFDiUzA&token_path=%2Fabr_corp%2F73_tamazight_tccybxt&expires=1793718482
