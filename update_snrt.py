@@ -120,4 +120,23 @@ def generate_snrt_m3u():
               if channel_id:
                 stream_url = f"{base_path}/corp/{channel_id}_480p/chunks_dvr.m3u8"
 
-            token_api_url = f"
+            token_api_url = f"https://token.easybroadcast.io/all?url={urllib.parse.quote(stream_url)}"
+            token_req = urllib.request.Request(
+                token_api_url, headers={"User-Agent": user_agent}
+            )
+
+            with urllib.request.urlopen(token_req) as token_resp:
+              token_raw = token_resp.read().decode()
+              try:
+                token_json = json.loads(token_raw)
+                t = token_json.get("token")
+                tp = token_json.get("token_path", "%2Fapi%2Fevents")
+                exp = token_json.get("expires")
+                if t:
+                  token_query = f"token={t}&expires={exp}&token_path={tp}"
+                else:
+                  token_query = token_raw
+              except json.JSONDecodeError:
+                token_query = token_raw
+
+              separator = "&
