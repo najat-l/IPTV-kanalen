@@ -59,3 +59,6 @@ https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?t
 
 #EXTINF:-1 tvg-id="Medi1TVMaghreb.ma@SDTST1" tvg-logo="https://i.imgur.com/F5OFQsp.jpeg" group-title="News",Medi1TV Maghreb (1080p)
 https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AlAoula.ma@InterTST5" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png" group-title="General",Al Aoula Inter
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist.m3u8
