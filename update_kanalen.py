@@ -132,13 +132,21 @@ def fetch_fresh_stream_url(raw_url):
 def update_playlist():
   input_filename = "kanalen.m3u"
   output_filename = "kanalen.m3u"
-  referrer = "https://snrtlive.ma/"
   user_agent = "Mozilla/5.0"
 
+  # Bouw een dictionary op voor de verse URL én de juiste referrer per tvg_id
   updated_channels = {}
+  channel_referrers = {}
+
   for channel in CHANNELS:
     fresh_url = fetch_fresh_stream_url(channel["url"])
     updated_channels[channel["tvg_id"]] = fresh_url
+    
+    # Bepaal de juiste referrer op basis van de URL
+    if "easybroadcast.io" in channel["url"]:
+      channel_referrers[channel["tvg_id"]] = "https://snrtlive.ma/"
+    else:
+      channel_referrers[channel["tvg_id"]] = "https://livemediama.com/"
 
   try:
     with open(input_filename, "r", encoding="utf-8") as f:
@@ -160,23 +168,34 @@ def update_playlist():
           break
 
       if matched_tvg_id:
-        # Schrijf de #EXTINF regel
-        new_lines.append(line)
+        # Als het Aflam TV is, moeten we ook de http-referrer in de #EXTINF regel zelf aanpassen naar livemediama.com
+        current_line = line
+        correct_referrer = channel_referrers[matched_tvg_id]
+        
+        if matched_tvg_id == "AflamTV.ma@SD":
+          if 'http-referrer="' not in current_line:
+            # Voeg http-referrer toe aan de #EXTINF regel als die er niet stond
+            current_line = current_line.replace(",Aflam TV", ' http-referrer="https://livemediama.com/",Aflam TV')
+          else:
+            # Of pas hem aan indien nodig
+            current_line = current_line.replace('http-referrer=".*?"', 'http-referrer="https://livemediama.com/"')
+
+        new_lines.append(current_line)
         
         # Sla oude EXTVLCOPT regels over
         i += 1
         while i < len(lines) and lines[i].startswith("#EXTVLCOPT:"):
           i += 1
 
-        # Voeg de nodige VLC opties weer toe
-        new_lines.append(f"#EXTVLCOPT:http-referrer={referrer}\n")
+        # Voeg de juiste VLC opties toe (met de specifieke referrer voor dit kanaal)
+        new_lines.append(f"#EXTVLCOPT:http-referrer={correct_referrer}\n")
         new_lines.append(f"#EXTVLCOPT:http-user-agent={user_agent}\n")
 
-        # Schrijf de nieuwe verse URL
+        # Schrijf de nieuwe URL
         new_url = updated_channels[matched_tvg_id]
         new_lines.append(f"{new_url}\n")
         
-        # Sla de oude URL over in de originele regels
+        # Sla de oude URL over in het originele bestand
         while i < len(lines) and not lines[i].startswith("#EXTINF") and not lines[i].startswith("# ———") and lines[i].strip() != "" and "http" in lines[i]:
           i += 1
         continue
@@ -187,7 +206,7 @@ def update_playlist():
   with open(output_filename, "w", encoding="utf-8") as f:
     f.writelines(new_lines)
 
-  print(f"Bestand '{output_filename}' succesvol bijgewerkt inclusief EXTVLCOPT regels!")
+  print(f"Bestand '{output_filename}' succesvol bijgewerkt met correcte referrers per kanaal!")
 
 
 if __name__ == "__main__":
