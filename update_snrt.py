@@ -5,9 +5,9 @@ import urllib.request
 # Jouw zenderslijst met de exacte layout-attributen
 CHANNELS = [
     {
-        "name": "Al Aoula Inter",
-        "tvg_id": "AlAoula.ma@Inter",
-        "logo": "https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png",
+        "name": "Al Aoula",
+        "tvg_id": "AlAoula.ma@SD",
+        "logo": "https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma.png",
         "group": "General",
         "url": "https://snrt.player.easybroadcast.io/events/73_aloula_w1dqfwm",
     },
