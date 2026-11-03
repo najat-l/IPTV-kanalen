@@ -2,14 +2,11 @@ name: Update SNRT M3U
 
 on:
   schedule:
-    # Draait automatisch elke 6 uur
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Zodat je de knop handmatig kunt indrukken
+  workflow_dispatch:
 
-# --- DIT BLOK ZORGT ERVOOR DAT GIT MAG WEGWRITEN ---
 permissions:
   contents: write
------------------------------------------------------
 
 jobs:
   build:
