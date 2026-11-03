@@ -58,7 +58,6 @@ def generate_snrt_m3u():
 
     # Check of het een EasyBroadcast event link is die omgezet moet worden via de API
     if "easybroadcast.io/events/" in raw_url:
-      # Voeg /api/ toe aan de URL zoals besproken
       api_url = raw_url.replace(
           "easybroadcast.io/events/", "easybroadcast.io/api/events/"
       )
@@ -96,7 +95,12 @@ def generate_snrt_m3u():
 
               # Stap C: Combineer stream URL en token
               separator = "&" if "?" in stream_url else "?"
-              final_stream_url = f"{stream_url}{separator}{token_query}"
+              tokenized_url = f"{stream_url}{separator}{token_query}"
+
+              # Voeg de benodigde Referer toe voor de IPTV-speler
+              final_stream_url = (
+                  f"{tokenized_url}|Referer=https://snrt.player.easybroadcast.io/"
+              )
       except Exception as e:
         print(f"Fout bij verwerken van {name}: {e}")
 
