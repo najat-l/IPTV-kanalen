@@ -197,3 +197,11 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5
 # ——————————————— Nederlands ———————————————
 #EXTINF:-1 tvg-id="AT5.nl" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AT5.nl.png" group-title="News",AT5
 https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
+
+
+#EXTINF:-1 tvg-id="M24TV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/M24TV.ma.png" group-title="News" http-referrer="https://livemediama.com/",M24TV
+#EXTVLCOPT:http-referrer=https://livemediama.com/
+https://stream-lb.livemediama.com/m24maroc/hls/stream_3/playlist.m3u8
+
+#EXTINF:-1 tvg-id="M24TVHD.ma" tvg-name="M24 TV HD" tvg-logo="https://i.imgur.com/J7GdM3L.png" group-title="News", M24 TV HD Morocco
+http://79.137.106.241/live/smil:OutStream1.smil/playlist.m3u8
