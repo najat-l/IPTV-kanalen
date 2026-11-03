@@ -92,6 +92,23 @@ def generate_snrt_m3u():
           )
 
           if stream_url:
+            # Vervang playlist_dvr.m3u8 door de werkende chunks_dvr.m3u8 variant met submap indien aanwezig
+            if "playlist_dvr.m3u8" in stream_url:
+              # Haal de basisstructuur op en pas aan naar chunks
+              # Bijv: .../73_aloula_w1dqfwm/playlist_dvr.m3u8 -> .../73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks_dvr.m3u8
+              # We kunnen dit dynamisch afleiden uit de stream_url of direct toevoegen:
+              base_path = stream_url.rsplit("/", 1)[0]
+              # Extraheer de kanaal-ID uit de URL (bijv. 73_aloula_w1dqfwm)
+              parts = stream_url.split("/")
+              channel_id = ""
+              for p in parts:
+                if "_w1dqfwm" in p or "_pgagr52" in p or "_k2tgcj0" in p or "_hthcj4p" in p or "_83tz85q" in p or "_7b7u5n1" in p or "_tccybxt" in p:
+                  channel_id = p
+                  break
+              
+              if channel_id:
+                stream_url = f"{base_path}/corp/{channel_id}_480p/chunks_dvr.m3u8"
+
             token_api_url = f"https://token.easybroadcast.io/all?url={urllib.parse.quote(stream_url)}"
             token_req = urllib.request.Request(
                 token_api_url, headers={"User-Agent": user_agent}
@@ -102,6 +119,7 @@ def generate_snrt_m3u():
               try:
                 token_json = json.loads(token_raw)
                 t = token_json.get("token")
+                # Pas token_path aan naar de chunks-variant als dat nodig is, of behoud de JSON output
                 tp = token_json.get("token_path", "%2Fapi%2Fevents")
                 exp = token_json.get("expires")
                 if t:
@@ -116,7 +134,7 @@ def generate_snrt_m3u():
       except Exception as e:
         print(f"Fout bij verwerken van {name}: {e}")
 
-    # Bouw de regels op exact volgens de door jou opgegeven layout
+    # Bouw de regels op exact volgens de layout
     m3u_content += (
         f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}"'
         f' group-title="{group}" http-referrer="{referrer}"'
@@ -129,9 +147,7 @@ def generate_snrt_m3u():
   # Schrijf weg naar snrt.m3u
   with open("snrt.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_content)
-  print(
-      "snrt.m3u succesvol bijgewerkt met de referrer en user-agent layout!"
-  )
+  print("snrt.m3u succesvol bijgewerkt met de chunks_dvr URL structuur!")
 
 
 if __name__ == "__main__":
