@@ -2,7 +2,7 @@ name: Update SNRT M3U
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 * * * *'  # Dit betekent: draai elk heel uur, 24/7
   workflow_dispatch:
 
 permissions:
