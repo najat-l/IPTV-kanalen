@@ -2,7 +2,6 @@ import json
 import urllib.parse
 import urllib.request
 
-# Jouw zenderslijst met de exacte layout-attributen
 CHANNELS = [
     {
         "name": "Al Aoula Inter",
@@ -76,7 +75,8 @@ def generate_snrt_m3u():
     raw_url = channel["url"]
     final_stream_url = raw_url
 
-    # Check of het een EasyBroadcast event link is die omgezet moet worden via de API
+    print(f"Bezig met verwerken van: {name}")
+
     if "easybroadcast.io/events/" in raw_url:
       api_url = raw_url.replace(
           "easybroadcast.io/events/", "easybroadcast.io/api/events/"
@@ -87,4 +87,34 @@ def generate_snrt_m3u():
         )
         with urllib.request.urlopen(req) as resp:
           event_data = json.loads(resp.read().decode())
-          stream_url = event_data.
+          # Opgelost: netjes op één regel gezet om syntaxfouten te voorkomen
+          stream_url = event_data.get("stream") or event_data.get(
+              "stream_no_timeshift"
+          )
+
+          if stream_url:
+            token_api_url = f"https://token.easybroadcast.io/all?url={urllib.parse.quote(stream_url)}"
+            token_req = urllib.request.Request(
+                token_api_url, headers={"User-Agent": user_agent}
+            )
+
+            with urllib.request.urlopen(token_req) as token_resp:
+              token_query = token_resp.read().decode().strip()
+
+              separator = "&" if "?" in stream_url else "?"
+              final_stream_url = f"{stream_url}{separator}{token_query}"
+              print(f" -> Token succesvol opgehaald voor {name}")
+          else:
+            print(f" -> Geen stream URL gevonden in event data voor {name}")
+      except Exception as e:
+        print(f" -> Fout bij ophalen van token voor {name}: {e}")
+
+    # Bouw de regels op volgens de gevraagde layout
+    m3u_content += (
+        f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}"'
+        f' group-title="{group}" http-referrer="{referrer}"'
+        f' http-user-agent="{user_agent}",{name}\n'
+    )
+    m3u_content += f"#EXTVLCOPT:http-referrer={referrer}\n"
+    m3u_content += f"#EXTVLCOPT:http-user-agent={user_agent}\n"
+    m3u_content += f"{final_stream_url}\n"
