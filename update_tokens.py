@@ -1,75 +1,115 @@
 import json
+import urllib.parse
 import urllib.request
 
-# Configuratie voor de zenders die je wilt bijwerken
-# Je kunt hier meerdere zenders aan toevoegen
+# Jouw opgegeven zenderslijst
 CHANNELS = [
     {
         "name": "Al Aoula",
-        "event_api": "https://snrt.player.easybroadcast.io/api/events/73_aloula_w1dqfwm",
+        "image": "images/AlAoula.png",
+        "url": "https://snrt.player.easybroadcast.io/events/73_aloula_w1dqfwm",
     },
-    # Voeg hier eventueel andere zenders toe met hun event_api URL
+    {
+        "name": "Al Aoula Laâyoune",
+        "image": "images/LaayouneTV.png",
+        "url": "https://snrt.player.easybroadcast.io/events/73_laayoune_pgagr52",
+    },
+    {
+        "name": "Arryadia",
+        "image": "images/Arryadia.png",
+        "url": "https://snrt.player.easybroadcast.io/events/73_arryadia_k2tgcj0",
+    },
+    {
+        "name": "Athaqafia",
+        "image": "images/Athaqafia.png",
+        "url": "https://snrt.player.easybroadcast.io/events/73_arrabia_hthcj4p",
+    },
+    {
+        "name": "Al Maghribia",
+        "image": "images/AlMaghribia.png",
+        "url": "https://snrt.player.easybroadcast.io/events/73_almaghribia_83tz85q",
+    },
+    {
+        "name": "Assadissa",
+        "image": "images/Assadissa.png",
+        "url": "https://snrt.player.easybroadcast.io/events/73_assadissa_7b7u5n1",
+    },
+    {
+        "name": "Aflam TV",
+        "image": "images/AflamTV.png",
+        "url": "https://stream-lb.livemediama.com/aflam/hls/stream_3/playlist.m3u8",
+    },
+    {
+        "name": "Tamazight TV",
+        "image": "images/TamazightTV.png",
+        "url": "https://snrt.player.easybroadcast.io/events/73_tamazight_tccybxt",
+    },
 ]
 
 
-def get_new_stream_url(event_api_url):
-  try:
-    # Stap 1: Haal de event data op
-    req = urllib.request.Request(
-        event_api_url, headers={"User-Agent": "Mozilla/5.0"}
+def generate_snrt_m3u():
+  m3u_content = "#EXTM3U\n"
+
+  for channel in CHANNELS:
+    name = channel["name"]
+    image = channel["image"]
+    raw_url = channel["url"]
+    final_stream_url = raw_url
+
+    # Check of het een EasyBroadcast event link is die omgezet moet worden via de API
+    if "easybroadcast.io/events/" in raw_url:
+      # Voeg /api/ toe aan de URL zoals besproken
+      api_url = raw_url.replace(
+          "easybroadcast.io/events/", "easybroadcast.io/api/events/"
+      )
+      try:
+        # Stap A: Haal de stream URL op uit de event endpoint
+        req = urllib.request.Request(
+            api_url, headers={"User-Agent": "Mozilla/5.0"}
+        )
+        with urllib.request.urlopen(req) as resp:
+          event_data = json.loads(resp.read().decode())
+          stream_url = event_data.get("stream") or event_data.get(
+              "stream_no_timeshift"
+          )
+
+          if stream_url:
+            # Stap B: Vraag het token op via de token endpoint
+            token_api_url = f"https://token.easybroadcast.io/all?url={urllib.parse.quote(stream_url)}"
+            token_req = urllib.request.Request(
+                token_api_url, headers={"User-Agent": "Mozilla/5.0"}
+            )
+
+            with urllib.request.urlopen(token_req) as token_resp:
+              token_raw = token_resp.read().decode()
+              try:
+                token_json = json.loads(token_raw)
+                t = token_json.get("token")
+                tp = token_json.get("token_path", "%2Fapi%2Fevents")
+                exp = token_json.get("expires")
+                if t:
+                  token_query = f"token={t}&token_path={tp}&expires={exp}"
+                else:
+                  token_query = token_raw
+              except json.JSONDecodeError:
+                token_query = token_raw
+
+              # Stap C: Combineer stream URL en token
+              separator = "&" if "?" in stream_url else "?"
+              final_stream_url = f"{stream_url}{separator}{token_query}"
+      except Exception as e:
+        print(f"Fout bij verwerken van {name}: {e}")
+
+    # Voeg toe aan de M3U structuur met logo referentie
+    m3u_content += (
+        f'#EXTINF:-1 tvg-logo="{image}",{name}\n{final_stream_url}\n'
     )
-    with urllib.request.urlopen(req) as response:
-      data = json.loads(response.read().decode())
 
-      # Zoek de stream URL (bijv. "stream" of "stream_no_timeshift")
-      stream_url = data.get("stream") or data.get("stream_no_timeshift")
-      if not stream_url:
-        print(f"Geen stream URL gevonden in {event_api_url}")
-        return None
-
-      # Stap 2: Vraag het token op via de token API
-      token_api_url = (
-          f"https://token.easybroadcast.io/all?url={urllib.parse.quote(stream_url)}"
-      )
-      token_req = urllib.request.Request(
-          token_api_url, headers={"User-Agent": "Mozilla/5.0"}
-      )
-
-      with urllib.request.urlopen(token_req) as token_response:
-        token_data = json.loads(token_response.read().decode())
-        token = token_data.get("token")
-
-        if token and stream_url:
-          # Stap 3: Combineer de URL en het token zoals je beschreef
-          # Controleer of de URL al parameters heeft of voeg het token toe
-          separator = "&" if "?" in stream_url else "?"
-          final_url = f"{stream_url}{separator}token={token}"  # Pas aan indien de token-structuur anders verwacht wordt (bijv. &{token})
-          return final_url
-
-  except Exception as e:
-    print(f"Fout bij ophalen van token voor {event_api_url}: {e}")
-
-  return None
-
-
-def update_m3u_file():
-  m3u_filename = "IPTV kanalen.m3u"
-
-  try:
-    with open(m3u_filename, "r", encoding="utf-8") as f:
-      content = f.read()
-
-    # Hier kun je logica toevoegen om de regels in je .m3u te zoeken en te vervangen
-    # Bijvoorbeeld op basis van de kanaalnaam of een specifiek kenmerk in je m3u.
-    print("M3U bestand succesvol ingelezen.")
-
-    # Voorbeeld: Als je een mechanisme hebt om de URL te updaten, schrijf je het hier terug:
-    # with open(m3u_filename, "w", encoding="utf-8") as f:
-    #     f.write(new_content)
-
-  except FileNotFoundError:
-    print(f"Bestand {m3u_filename} niet gevonden in de repository.")
+  # Schrijf weg naar snrt.m3u
+  with open("snrt.m3u", "w", encoding="utf-8") as f:
+    f.write(m3u_content)
+  print("snrt.m3u succesvol aangemaakt en bijgewerkt!")
 
 
 if __name__ == "__main__":
-  update_m3u_file()
+  generate_snrt_m3u()
