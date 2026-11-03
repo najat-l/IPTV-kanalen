@@ -1,33 +1,33 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="AlAoula.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png" group-title="General" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="Mozilla/5.0",Al Aoula Inter
+#EXTINF:-1 tvg-id="AlAoula.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma@Inter.png" group-title="General" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="ExoPlayer",Al Aoula Inter
 #EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=ExoPlayer
 https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=00qhtun_TQuLq4kF45RlvB42HRbe19lPQjV1V0_N-OE&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm&expires=1793719014
-#EXTINF:-1 tvg-id="LaayouneTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/LaayouneTV.png" group-title="General" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="Mozilla/5.0",Al Aoula Laâyoune
+#EXTINF:-1 tvg-id="LaayouneTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/LaayouneTV.png" group-title="General" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="ExoPlayer",Al Aoula Laâyoune
 #EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=ExoPlayer
 https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/playlist_dvr.m3u8?token=p02SvhA-zC94GCQeeCB3BORB-_8lT5K9mcMBy6_Fzo8&token_path=%2Fabr_corp%2F73_laayoune_pgagr52&expires=1793719015
-#EXTINF:-1 tvg-id="Arryadia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Arryadia.png" group-title="Sports" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="Mozilla/5.0",Arryadia
+#EXTINF:-1 tvg-id="Arryadia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Arryadia.png" group-title="Sports" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="ExoPlayer",Arryadia
 #EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=ExoPlayer
 https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8?token=MfldDbXacA-e6bV0C8F2qoctQZ5saL8wL4ebNa9DtSA&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0&expires=1793719016
-#EXTINF:-1 tvg-id="Athaqafia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Athaqafia.png" group-title="Culture" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="Mozilla/5.0",Athaqafia
+#EXTINF:-1 tvg-id="Athaqafia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Athaqafia.png" group-title="Culture" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="ExoPlayer",Athaqafia
 #EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=ExoPlayer
 https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8?token=1zJyQXDCVhZXlNDO2j_wJbL-Zp0YT-HgohjZc_Rug9s&token_path=%2Fabr_corp%2F73_arrabia_hthcj4p&expires=1793719016
-#EXTINF:-1 tvg-id="AlMaghribia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlMaghribia.png" group-title="General" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="Mozilla/5.0",Al Maghribia
+#EXTINF:-1 tvg-id="AlMaghribia.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlMaghribia.png" group-title="General" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="ExoPlayer",Al Maghribia
 #EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=ExoPlayer
 https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/playlist_dvr.m3u8?token=AeeZKiBosFIoE-PVqdKL3cIi0VC1Qhf_gKpDDI3Xk2Q&token_path=%2Fabr_corp%2F73_almaghribia_83tz85q&expires=1793719017
-#EXTINF:-1 tvg-id="Assadissa.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Assadissa.png" group-title="Religious" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="Mozilla/5.0",Assadissa
+#EXTINF:-1 tvg-id="Assadissa.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Assadissa.png" group-title="Religious" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="ExoPlayer",Assadissa
 #EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=ExoPlayer
 https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/playlist_dvr.m3u8?token=uBuDqa_1XadFP2UylFq1Ps6qbzOFWkys-BjO_1Otdl0&token_path=%2Fabr_corp%2F73_assadissa_7b7u5n1&expires=1793719018
-#EXTINF:-1 tvg-id="AflamTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AflamTV.png" group-title="Movies" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="Mozilla/5.0",Aflam TV
+#EXTINF:-1 tvg-id="AflamTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AflamTV.png" group-title="Movies" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="ExoPlayer",Aflam TV
 #EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=ExoPlayer
 https://stream-lb.livemediama.com/aflam/hls/stream_3/playlist.m3u8
-#EXTINF:-1 tvg-id="TamazightTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TamazightTV.png" group-title="General" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="Mozilla/5.0",Tamazight TV
+#EXTINF:-1 tvg-id="TamazightTV.ma@Inter" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TamazightTV.png" group-title="General" http-referrer="https://snrt.player.easybroadcast.io/" http-user-agent="ExoPlayer",Tamazight TV
 #EXTVLCOPT:http-referrer=https://snrt.player.easybroadcast.io/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=ExoPlayer
 https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/playlist_dvr.m3u8?token=DYxR7dXH8WAVanZ_8WCcFm_sscg_bBj8XOHCg7cuWR0&token_path=%2Fabr_corp%2F73_tamazight_tccybxt&expires=1793719019
