@@ -1,1 +1,17 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-logo="images/AlAoula.png",Al Aoula
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=ARh1niWmSICBuIUxw2-ud8MIzxAww76DZY5bxj6rO94&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm&expires=1793714868
+#EXTINF:-1 tvg-logo="images/LaayouneTV.png",Al Aoula Laâyoune
+https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/playlist_dvr.m3u8?token=IuT84oJs1jd4HRYcOUHxByrgUOBu7VWN2AFthOlbeyM&token_path=%2Fabr_corp%2F73_laayoune_pgagr52&expires=1793714869
+#EXTINF:-1 tvg-logo="images/Arryadia.png",Arryadia
+https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8?token=vmFqq5l5pUGNCvj18fBqZCCUQtusJ6UoIcqdhobalCw&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0&expires=1793714869
+#EXTINF:-1 tvg-logo="images/Athaqafia.png",Athaqafia
+https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8?token=LGnkLFk0t866oQW5eWq2-HbwmC1PpwwZcViDRVFWkxg&token_path=%2Fabr_corp%2F73_arrabia_hthcj4p&expires=1793714870
+#EXTINF:-1 tvg-logo="images/AlMaghribia.png",Al Maghribia
+https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/playlist_dvr.m3u8?token=MzMDxjVizTSvSb86DHyrdvGWDy8G87KSro1_xelygM4&token_path=%2Fabr_corp%2F73_almaghribia_83tz85q&expires=1793714870
+#EXTINF:-1 tvg-logo="images/Assadissa.png",Assadissa
+https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/playlist_dvr.m3u8?token=YdOGfEfSXfIBml3wwLS53ulqV965dlQoTs7UWBokzQk&token_path=%2Fabr_corp%2F73_assadissa_7b7u5n1&expires=1793714871
+#EXTINF:-1 tvg-logo="images/AflamTV.png",Aflam TV
+https://stream-lb.livemediama.com/aflam/hls/stream_3/playlist.m3u8
+#EXTINF:-1 tvg-logo="images/TamazightTV.png",Tamazight TV
+https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/playlist_dvr.m3u8?token=WUjeJKtpmAFbcaQl4E8-uUxBu8dUombD03wegtHoc70&token_path=%2Fabr_corp%2F73_tamazight_tccybxt&expires=1793714872
