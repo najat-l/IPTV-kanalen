@@ -1,0 +1,29 @@
+name: Update SNRT M3U
+
+on:
+  schedule:
+    # Draait automatisch elke 6 uur (kun je zelf aanpassen indien gewenst)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Hiermee kun je de knop handmatig indrukken op GitHub om direct te testen
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v4
+
+      - name: Python instellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Script uitvoeren
+        run: python update_snrt.py
+
+      - name: Wijzigingen opslaan naar snrt.m3u in GitHub
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add snrt.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van snrt.m3u tokens" && git push)
