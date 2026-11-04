@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code ophalen
-        uses: actions/checkout@v4[cite: 8]
+        uses: actions/checkout@v4
 
       - name: Python instellen
-        uses: actions/setup-python@v5[cite: 8]
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'[cite: 8]
+          python-version: '3.10'
 
       - name: Installeer FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
@@ -27,10 +27,10 @@ jobs:
         run: pip install --upgrade yt-dlp
 
       - name: Update SNRT M3U uitvoeren
-        run: python update_snrt.py[cite: 8]
+        run: python update_snrt.py
 
       - name: Update Kanalen M3U uitvoeren
-        run: python update_kanalen.py[cite: 8]
+        run: python update_kanalen.py
 
       - name: Update YouTube M3U test uitvoeren
         run: python update_youtube.py
@@ -40,4 +40,4 @@ jobs:
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
           git add snrt.m3u kanalen.m3u youtube.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van M3U playlists en YouTube test" && git push)[cite: 8]
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van M3U playlists en YouTube test" && git push)
