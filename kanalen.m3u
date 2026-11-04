@@ -40,6 +40,7 @@ https://stream-lb.livemediama.com/aflam/hls/stream_3/playlist.m3u8
 https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/corp/73_tamazight_tccybxt_480p/chunks_dvr.m3u8?token=JHr6x1AIQ3oytke9D0Ta7YxftsZ0Ddx8Pdm4d3_e2qg&token_path=%2Fabr_corp%2F73_tamazight_tccybxt%2Fcorp%2F73_tamazight_tccybxt_480p&expires=1793804460
 #EXTINF:-1 tvg-id="M24TV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/M24TV.ma.png" group-title="News" http-referrer="https://livemediama.com/",M24TV
 #EXTVLCOPT:http-referrer=https://livemediama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://stream-lb.livemediama.com/m24maroc/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="Medi1TVMaghreb.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Medi1TVMaghreb.ma.png" group-title="News",Medi1TV Maghreb
 https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8
@@ -47,6 +48,7 @@ https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m
 https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleMaroc.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TeleMaroc.ma.png" group-title="News" http-referrer="https://livemediama.com/",Télé Maroc
 #EXTVLCOPT:http-referrer=https://livemediama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://stream-lb.livemediama.com/telemaroc/hls/stream_3/playlist.m3u8
 
 # ——————————————— Islam ———————————————
