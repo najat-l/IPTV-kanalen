@@ -62,6 +62,8 @@ jobs:
           "
 
       - name: Update YouTube M3U uitvoeren
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
         run: python update_youtube.py
 
       - name: Wijzigingen opslaan in GitHub
