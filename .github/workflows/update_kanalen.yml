@@ -45,21 +45,20 @@ jobs:
           python -c "
           import os
           raw = os.environ.get('YT_COOKIES', '')
-          cleaned_lines = []
+          cleaned_lines = ['# Netscape HTTP Cookie File']
           for line in raw.splitlines():
               stripped = line.strip('\r')
               if not stripped or stripped.startswith('#'):
-                  cleaned_lines.append(stripped)
-              else:
-                  # Forceer tab-scheiding voor de Netscape specificatie
-                  parts = stripped.split()
-                  if len(parts) >= 7:
-                      cleaned_lines.append('\t'.join(parts))
-                  else:
-                      cleaned_lines.append(stripped)
+                  continue
+              parts = stripped.split()
+              # Alleen regels met minstens 7 velden die van YouTube of Google zijn
+              if len(parts) >= 7:
+                  domain = parts[0]
+                  if 'youtube.com' in domain or 'google.com' in domain:
+                      cleaned_lines.append('\t'.join(parts[:7]))
           with open('cookies.txt', 'w', encoding='utf-8') as f:
               f.write('\n'.join(cleaned_lines) + '\n')
-          print('Cookies succesvol geformatteerd naar Netscape-formaat.')
+          print('Aantal geldige YouTube/Google cookies geschreven:', len(cleaned_lines) - 1)
           "
 
       - name: Update YouTube M3U uitvoeren
