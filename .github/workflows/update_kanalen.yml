@@ -42,7 +42,14 @@ jobs:
         env:
           YT_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
         run: |
-          python -c "import os; open('cookies.txt', 'w', encoding='utf-8').write(os.environ.get('YT_COOKIES', ''))"
+          python -c "
+          raw = os.environ.get('YT_COOKIES', '')
+          # Schoon eventuele Windows regeleinden op en filter lege regels weg
+          lines = [line.strip('\r') for line in raw.splitlines() if line.strip()]
+          with open('cookies.txt', 'w', encoding='utf-8') as f:
+              f.write('\n'.join(lines) + '\n')
+          print('Cookies succesvol geschreven. Aantal regels:', len(lines))
+          "
 
       - name: Debug cookies bestand
         run: |
