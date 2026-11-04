@@ -32,6 +32,10 @@ jobs:
       - name: Update Kanalen M3U uitvoeren
         run: python update_kanalen.py
 
+      - name: YouTube Cookies bestand aanmaken
+        run: |
+          echo "${{ secrets.YOUTUBE_COOKIES }}" > cookies.txt
+
       - name: Update YouTube M3U test uitvoeren
         run: python update_youtube.py
 
