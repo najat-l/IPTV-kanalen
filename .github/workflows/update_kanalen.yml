@@ -44,6 +44,13 @@ jobs:
         run: |
           python -c "import os; open('cookies.txt', 'w', encoding='utf-8').write(os.environ.get('YT_COOKIES', ''))"
 
+      - name: Debug cookies bestand
+        run: |
+          echo "Controleren of cookies.txt bestaat en inhoud heeft:"
+          ls -la cookies.txt
+          echo "Eerste regel van het bestand:"
+          head -n 2 cookies.txt
+
       - name: Update YouTube M3U test uitvoeren
         run: python update_youtube.py
 
