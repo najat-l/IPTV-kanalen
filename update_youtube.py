@@ -12,12 +12,20 @@ CHANNELS = [
 
 def get_youtube_live_url(youtube_url):
     try:
-        cmd = ["yt-dlp", "-g", youtube_url]
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
+        # Voeg --user-agent toe zodat YouTube de aanvraag niet blokkeert
+        cmd = [
+            "yt-dlp",
+            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "-g", 
+            youtube_url
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=20)
         if result.returncode == 0:
             urls = result.stdout.strip().split('\n')
-            if urls:
+            if urls and urls[0]:
                 return urls[0]
+        else:
+            print(f"yt-dlp error output: {result.stderr}")
     except Exception as e:
         print(f"Fout bij ophalen YouTube stream voor {youtube_url}: {e}")
     return None
