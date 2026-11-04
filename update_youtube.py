@@ -1,8 +1,17 @@
 import subprocess
 
+CHANNELS = [
+    {
+        "name": "M24TV",
+        "tvg_id": "M24TV.ma",
+        "logo": "https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/M24TV.ma.png",
+        "group": "News",
+        "url": "https://www.youtube.com/watch?v=RgaNtB-sCYU",
+    }
+]
+
 def get_youtube_live_url(youtube_url):
     try:
-        # Vraagt de directe stream-url op via yt-dlp
         cmd = ["yt-dlp", "-g", youtube_url]
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
         if result.returncode == 0:
@@ -14,25 +23,26 @@ def get_youtube_live_url(youtube_url):
     return None
 
 def main():
-    youtube_url = "https://www.youtube.com/watch?v=RgaNtB-sCYU"
-    print("Bezig met ophalen van live stream URL voor M24 via yt-dlp...")
-    
-    stream_url = get_youtube_live_url(youtube_url)
-    
-    if stream_url:
-        print(f"Succesvol opgehaald: {stream_url}")
+    output_filename = "youtube.m3u"
+    m3u_lines = ["#EXTM3U\n"]
+
+    for channel in CHANNELS:
+        print(f"Bezig met ophalen verse stream-URL voor {channel['name']} via yt-dlp...")
+        stream_url = get_youtube_live_url(channel["url"])
         
-        # Schrijf weg naar youtube.m3u
-        m3u_content = f"""#EXTM3U
-#EXTINF:-1 tvg-id="M24" tvg-name="M24 TV" group-title="News",M24 TV
-{stream_url}
-"""
-        with open("youtube.m3u", "w", encoding="utf-8") as f:
-            f.write(m3u_content)
-            
-        print("Bestand 'youtube.m3u' is succesvol aangemaakt!")
-    else:
-        print("Fout: Kon geen directe stream URL vinden via yt-dlp.")
+        if stream_url:
+            print(f"Succes! Gevonden URL: {stream_url}")
+            # Bouw de M3U regels op basis van de array-gegevens
+            m3u_lines.append(f'#EXTINF:-1 tvg-id="{channel["tvg_id"]}" tvg-logo="{channel["logo"]}" group-title="{channel["group"]}",{channel["name"]}\n')
+            m3u_lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0\n")
+            m3u_lines.append(f"{stream_url}\n")
+        else:
+            print(f"Fout: Kon geen stream ophalen voor {channel['name']}")
+
+    with open(output_filename, "w", encoding="utf-8") as f:
+        f.writelines(m3u_lines)
+        
+    print(f"Bestand '{output_filename}' is succesvol gegenereerd!")
 
 if __name__ == "__main__":
     main()
