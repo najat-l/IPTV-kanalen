@@ -1,4 +1,4 @@
-name: Update IPTV M3U Playlists Nieuw
+name: Update IPTV M3U Playlists
 
 concurrency:
   group: update-kanalen
