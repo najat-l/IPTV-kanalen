@@ -32,9 +32,12 @@ jobs:
       - name: Update Kanalen M3U uitvoeren
         run: python update_kanalen.py[cite: 8]
 
+      - name: Update YouTube M3U test uitvoeren
+        run: python update_youtube.py
+
       - name: Wijzigingen opslaan in GitHub
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
-          git add snrt.m3u kanalen.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van snrt.m3u en kanalen.m3u tokens" && git push)[cite: 8]
+          git add snrt.m3u kanalen.m3u youtube.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van M3U playlists en YouTube test" && git push)[cite: 8]
