@@ -1,5 +1,9 @@
 name: Update IPTV M3U Playlists
 
+concurrency:
+  group: update-kanalen
+  cancel-in-progress: true
+
 on:
   schedule:
     - cron: '0 * * * *'
