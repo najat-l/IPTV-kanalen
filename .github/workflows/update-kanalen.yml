@@ -11,6 +11,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
       - name: Code ophalen
         uses: actions/checkout@v4
@@ -18,7 +20,7 @@ jobs:
       - name: Python instellen
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Installeer FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
@@ -32,9 +34,11 @@ jobs:
       - name: Update Kanalen M3U uitvoeren
         run: python update_kanalen.py
 
-      - name: YouTube Cookies bestand aanmaken
+      - name: YouTube Cookies bestand veilig aanmaken
         run: |
-          echo "${{ secrets.YOUTUBE_COOKIES }}" > cookies.txt
+          cat << 'EOF' > cookies.txt
+          ${{ secrets.YOUTUBE_COOKIES }}
+          EOF
 
       - name: Update YouTube M3U test uitvoeren
         run: python update_youtube.py
