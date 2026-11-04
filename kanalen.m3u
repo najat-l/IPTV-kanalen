@@ -4,11 +4,11 @@
 #EXTINF:-1 tvg-id="AlAoula.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlAoula.ma.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0",Al Aoula
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks_dvr.m3u8?token=SdecGpcjhJl9QFazujy5xFh_hZgAkZz6bvCr0cqRM5A&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm%2Fcorp%2F73_aloula_w1dqfwm_480p&expires=1793827190
+https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks_dvr.m3u8?token=ktKe5Twuwheb8GwNv_KOxHQOzU2UmU16uF7va0Lnj3A&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm%2Fcorp%2F73_aloula_w1dqfwm_480p&expires=1793829709
 #EXTINF:-1 tvg-id="LaayouneTV.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/LaayouneTV.ma.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0",Al Aoula Laâyoune
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/corp/73_laayoune_pgagr52_480p/chunks_dvr.m3u8?token=m-l1R7x6jfKW-veN28GZnXngJX0XQJOkTeUTXQ85UF0&token_path=%2Fabr_corp%2F73_laayoune_pgagr52%2Fcorp%2F73_laayoune_pgagr52_480p&expires=1793827191
+https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/corp/73_laayoune_pgagr52_480p/chunks_dvr.m3u8?token=aCsubFXYGhlaFav3haUF6AFmUBouu1mEQDmopWpUyf8&token_path=%2Fabr_corp%2F73_laayoune_pgagr52%2Fcorp%2F73_laayoune_pgagr52_480p&expires=1793829709
 #EXTINF:-1 tvg-id="2M.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/2M.ma.png" group-title="General" http-referrer="http://www.radio2m.ma/",2M
 #EXTVLCOPT:http-referrer=http://www.radio2m.ma/
 https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
@@ -17,19 +17,19 @@ https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-id="Arryadia.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Arryadia.ma.png" group-title="Sports" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0",Arryadia
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/corp/73_arryadia_k2tgcj0_480p/chunks_dvr.m3u8?token=ABeozVRuOGlyvAitvtszg4w587RXkEoWq1CkBoMZ8zI&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0%2Fcorp%2F73_arryadia_k2tgcj0_480p&expires=1793827191
+https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/corp/73_arryadia_k2tgcj0_480p/chunks_dvr.m3u8?token=r0Ui9kCeGXTcaGEEtSbf7CV_1Y3ds2UIWyeSjIBAwN4&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0%2Fcorp%2F73_arryadia_k2tgcj0_480p&expires=1793829710
 #EXTINF:-1 tvg-id="Athaqafia.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Athaqafia.ma.png" group-title="Culture" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0",Athaqafia
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/corp/73_arrabia_hthcj4p_480p/chunks_dvr.m3u8?token=iPRSu2peL94MEgMZ3jM6_Ry7u30-qhWmLw2bcVU4620&token_path=%2Fabr_corp%2F73_arrabia_hthcj4p%2Fcorp%2F73_arrabia_hthcj4p_480p&expires=1793827191
+https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/corp/73_arrabia_hthcj4p_480p/chunks_dvr.m3u8?token=U1yFfCWeV1V79FMFY8pLC7LIbQ89tiWgrl1zRqakKMQ&token_path=%2Fabr_corp%2F73_arrabia_hthcj4p%2Fcorp%2F73_arrabia_hthcj4p_480p&expires=1793829711
 #EXTINF:-1 tvg-id="AlMaghribia.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AlMaghribia.ma.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0",Al Maghribia
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/corp/73_almaghribia_83tz85q_480p/chunks_dvr.m3u8?token=trM5Dq_WUHXTysrnSJr8SESbUH3rV9OXTyIil4NXtok&token_path=%2Fabr_corp%2F73_almaghribia_83tz85q%2Fcorp%2F73_almaghribia_83tz85q_480p&expires=1793827192
+https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/corp/73_almaghribia_83tz85q_480p/chunks_dvr.m3u8?token=V1XD9Y3kmzWXErG4tB0DEv4mxh9jiAmHmK_MnEAiiu4&token_path=%2Fabr_corp%2F73_almaghribia_83tz85q%2Fcorp%2F73_almaghribia_83tz85q_480p&expires=1793829711
 #EXTINF:-1 tvg-id="Assadissa.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/Assadissa.ma.png" group-title="Religious" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0",Assadissa
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/corp/73_assadissa_7b7u5n1_480p/chunks_dvr.m3u8?token=LEGQsLSsQ2jwpON0PPKeem88QfR9HaaFw-mcRglXaoM&token_path=%2Fabr_corp%2F73_assadissa_7b7u5n1%2Fcorp%2F73_assadissa_7b7u5n1_480p&expires=1793827192
+https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/corp/73_assadissa_7b7u5n1_480p/chunks_dvr.m3u8?token=u4KW2fRdD8U9SBhsWyObXWoXSMdQH9S_39_YBsLCAOg&token_path=%2Fabr_corp%2F73_assadissa_7b7u5n1%2Fcorp%2F73_assadissa_7b7u5n1_480p&expires=1793829712
 #EXTINF:-1 tvg-id="AflamTV.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AflamTV.ma.png" group-title="Movies" http-referrer="https://livemediama.com/",Aflam TV
 #EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -37,7 +37,7 @@ https://stream-lb.livemediama.com/aflam/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="TamazightTV.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/TamazightTV.ma.png" group-title="General" http-referrer="https://snrtlive.ma/" http-user-agent="Mozilla/5.0",Tamazight TV
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/corp/73_tamazight_tccybxt_480p/chunks_dvr.m3u8?token=WFyaN6kc1017y6Qk_KGpmFSGBYCb1NqW_aw2hOjrYLU&token_path=%2Fabr_corp%2F73_tamazight_tccybxt%2Fcorp%2F73_tamazight_tccybxt_480p&expires=1793827192
+https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/corp/73_tamazight_tccybxt_480p/chunks_dvr.m3u8?token=2jwqDgTBwhO_Y1U2D5kYQwwQW34rzIIcmQkmjolzxes&token_path=%2Fabr_corp%2F73_tamazight_tccybxt%2Fcorp%2F73_tamazight_tccybxt_480p&expires=1793829712
 #EXTINF:-1 tvg-id="M24TV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/M24TV.ma.png" group-title="News" http-referrer="https://livemediama.com/",M24TV
 #EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
