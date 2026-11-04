@@ -38,32 +38,12 @@ jobs:
       - name: Update Kanalen M3U uitvoeren
         run: python update_kanalen.py
 
-      - name: YouTube Cookies bestand veilig aanmaken
-        env:
-          YT_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
-        run: |
-          python -c "
-          import os
-          raw = os.environ.get('YT_COOKIES', '')
-          lines = [line.strip('\r') for line in raw.splitlines() if line.strip()]
-          with open('cookies.txt', 'w', encoding='utf-8') as f:
-              f.write('\n'.join(lines) + '\n')
-          print('Cookies succesvol geschreven. Aantal regels:', len(lines))
-          "
-
-      - name: Debug cookies bestand
-        run: |
-          echo "Controleren of cookies.txt bestaat en inhoud heeft:"
-          ls -la cookies.txt
-          echo "Eerste regel van het bestand:"
-          head -n 2 cookies.txt
-
-      - name: Test yt-dlp cookie verificatie
-        run: yt-dlp --cookies cookies.txt --simulate "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+      - name: Update YouTube M3U uitvoeren
+        run: python update_youtube.py
 
       - name: Wijzigingen opslaan in GitHub
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
           git add snrt.m3u kanalen.m3u youtube.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van M3U playlists en YouTube test" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van M3U playlists" && git push)
