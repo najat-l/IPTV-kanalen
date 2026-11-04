@@ -58,8 +58,8 @@ jobs:
           echo "Eerste regel van het bestand:"
           head -n 2 cookies.txt
 
-      - name: Update YouTube M3U test uitvoeren
-        run: python update_youtube.py
+      - name: Test yt-dlp cookie verificatie
+        run: yt-dlp --cookies cookies.txt --simulate "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 
       - name: Wijzigingen opslaan in GitHub
         run: |
