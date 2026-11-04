@@ -12,9 +12,9 @@ CHANNELS = [
 
 def get_youtube_live_url(youtube_url):
     try:
-        # Voeg --user-agent toe zodat YouTube de aanvraag niet blokkeert
         cmd = [
             "yt-dlp",
+            "--cookies", "cookies.txt",
             "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "-g", 
             youtube_url
