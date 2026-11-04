@@ -2,7 +2,7 @@ name: Update IPTV M3U Playlists
 
 on:
   schedule:
-    - cron: '17 * * * *'  # Elk heel uur, 24/7
+    - cron: '0 * * * *'  # Elk heel uur, 24/7
   workflow_dispatch:
 
 permissions:
