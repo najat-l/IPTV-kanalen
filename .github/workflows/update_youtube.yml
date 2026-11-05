@@ -1,1 +1,68 @@
+name: Update IPTV M3U YouTube Playlist
 
+concurrency:
+  group: update-youtube
+  cancel-in-progress: true
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v4
+
+      - name: Python instellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installeer FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Installeer yt-dlp
+        run: pip install --upgrade yt-dlp
+
+      - name: YouTube Cookies bestand veilig aanmaken
+        env:
+          YT_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          python -c "
+          import os
+          raw = os.environ.get('YT_COOKIES', '')
+          cleaned_lines = ['# Netscape HTTP Cookie File']
+          for line in raw.splitlines():
+              stripped = line.strip('\r')
+              if not stripped or stripped.startswith('#'):
+                  continue
+              parts = stripped.split()
+              # Alleen regels met minstens 7 velden die van YouTube of Google zijn
+              if len(parts) >= 7:
+                  domain = parts[0]
+                  if 'youtube.com' in domain or 'google.com' in domain:
+                      cleaned_lines.append('\t'.join(parts[:7]))
+          with open('cookies.txt', 'w', encoding='utf-8') as f:
+              f.write('\n'.join(cleaned_lines) + '\n')
+          print('Aantal geldige YouTube/Google cookies geschreven:', len(cleaned_lines) - 1)
+          "
+
+      - name: Update YouTube M3U uitvoeren
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: python update_youtube.py
+
+      - name: Wijzigingen opslaan in GitHub
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add youtube.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van M3U playlists" && git push)
