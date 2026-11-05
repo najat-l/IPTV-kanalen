@@ -211,10 +211,10 @@ https://bpm.tv.delta.nl/hls/combined/1/mobile.m3u8
 https://bpm.tv.delta.nl/hls/combined/2/mobile.m3u8
 #EXTINF:-1 tvg-id="NPO3.nl@HD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NPO3.nl.png" group-title="General",NPO 3
 https://bpm.tv.delta.nl/hls/combined/3/mobile.m3u8
-#EXTINF:-1 tvg-id="NH.nl@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NH.nl.png" group-title="News",NH Nieuws
-https://takeoff.jetstre.am/?account=nhnieuws&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-id="AT5.nl" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/AT5.nl.png" group-title="News",AT5
 https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
+#EXTINF:-1 tvg-id="NH.nl@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/NH.nl.png" group-title="News",NH Nieuws
+https://takeoff.jetstre.am/?account=nhnieuws&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-id="SBS6Classics.nl@HD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/SBS6Classics.nl.png" group-title="General",SBS6 Classics
 https://sbs6classic.prd1.talpatvcdn.nl/v1/master/8ada1ed2ae3b9c3db6fc5e604cfa78fc7d2d745e/sbs6classic_ssai/fea54560ba684701a2143f33a9cf4489/index.m3u8
 #EXTINF:-1 tvg-id="WaterBear.ch@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/WaterBear.ch.png" group-title="Documentary",WaterBear
