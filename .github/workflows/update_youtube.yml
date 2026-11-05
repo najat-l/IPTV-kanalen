@@ -65,6 +65,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
-          git pull --rebase origin main
+          git fetch origin main
+          git rebase origin/main
           git add youtube.m3u
           git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van M3U playlists" && git push)
