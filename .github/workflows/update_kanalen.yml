@@ -26,49 +26,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Installeer FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
-      - name: Installeer yt-dlp
-        run: pip install --upgrade yt-dlp
-
       - name: Update SNRT M3U uitvoeren
         run: python update_snrt.py
 
       - name: Update Kanalen M3U uitvoeren
         run: python update_kanalen.py
 
-      - name: YouTube Cookies bestand veilig aanmaken
-        env:
-          YT_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
-        run: |
-          python -c "
-          import os
-          raw = os.environ.get('YT_COOKIES', '')
-          cleaned_lines = ['# Netscape HTTP Cookie File']
-          for line in raw.splitlines():
-              stripped = line.strip('\r')
-              if not stripped or stripped.startswith('#'):
-                  continue
-              parts = stripped.split()
-              # Alleen regels met minstens 7 velden die van YouTube of Google zijn
-              if len(parts) >= 7:
-                  domain = parts[0]
-                  if 'youtube.com' in domain or 'google.com' in domain:
-                      cleaned_lines.append('\t'.join(parts[:7]))
-          with open('cookies.txt', 'w', encoding='utf-8') as f:
-              f.write('\n'.join(cleaned_lines) + '\n')
-          print('Aantal geldige YouTube/Google cookies geschreven:', len(cleaned_lines) - 1)
-          "
-
-      - name: Update YouTube M3U uitvoeren
-        env:
-          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
-        run: python update_youtube.py
-
       - name: Wijzigingen opslaan in GitHub
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
-          git add snrt.m3u kanalen.m3u youtube.m3u
+          git add snrt.m3u kanalen.m3u
           git diff --quiet && git diff --staged --quiet || (git commit -m "Automatische update van M3U playlists" && git push)
