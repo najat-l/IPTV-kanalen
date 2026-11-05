@@ -45,11 +45,14 @@ jobs:
               if not stripped or stripped.startswith('#'):
                   continue
               parts = stripped.split()
-              # Alleen regels met minstens 7 velden die van YouTube of Google zijn
               if len(parts) >= 7:
                   domain = parts[0]
                   if 'youtube.com' in domain or 'google.com' in domain:
-                      cleaned_lines.append('\t'.join(parts[:7]))
+                      # Forceer uppercase TRUE/FALSE zodat http.cookiejar niet crasht
+                      flag = 'TRUE' if parts[1].upper() == 'TRUE' else 'FALSE'
+                      secure = 'TRUE' if parts[3].upper() == 'TRUE' else 'FALSE'
+                      fixed_parts = [domain, flag, parts[2], secure, parts[4], parts[5], parts[6]]
+                      cleaned_lines.append('\t'.join(fixed_parts))
           with open('cookies.txt', 'w', encoding='utf-8') as f:
               f.write('\n'.join(cleaned_lines) + '\n')
           print('Aantal geldige YouTube/Google cookies geschreven:', len(cleaned_lines) - 1)
