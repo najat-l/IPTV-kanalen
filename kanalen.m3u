@@ -2,42 +2,42 @@
 
 # ——————————————— Marokko ———————————————
 #EXTINF:-1 tvg-id="AlAoula.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/AlAoula.ma.png" group-title="General" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",Al Aoula
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_480p/chunks_dvr.m3u8?token=6xG3pYeJ0bAHctB-AXzOOyTRBM78cjwQnkTa-WATdBE&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm%2Fcorp%2F73_aloula_w1dqfwm_480p&expires=1793973649
+https://stream-lb.livemediama.com/alaoula/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="LaayouneTV.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/LaayouneTV.ma.png" group-title="General" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",Al Aoula Laâyoune
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/corp/73_laayoune_pgagr52_480p/chunks_dvr.m3u8?token=luatTF5Z1U9NhVC6v0ChF6-IYqb7BqKhW4Rg23ha0Xw&token_path=%2Fabr_corp%2F73_laayoune_pgagr52%2Fcorp%2F73_laayoune_pgagr52_480p&expires=1793973649
+https://stream-lb.livemediama.com/laayounetv/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="2M.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/2M.ma.png" group-title="General" http-referrer="http://www.radio2m.ma/",2M
 #EXTVLCOPT:http-referrer=http://www.radio2m.ma/
 https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
 #EXTINF:-1 tvg-id="2MMonde.ma@Plus1" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/2MMonde.ma@Plus1.png" group-title="General",2M Monde +1
 https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
 #EXTINF:-1 tvg-id="Arryadia.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Arryadia.ma.png" group-title="Sports" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",Arryadia
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/corp/73_arryadia_k2tgcj0_480p/chunks_dvr.m3u8?token=qSO2YaZ6fuVZVc-E2IU57m_0VqqZ_BXdJc9YrGmOI-0&token_path=%2Fabr_corp%2F73_arryadia_k2tgcj0%2Fcorp%2F73_arryadia_k2tgcj0_480p&expires=1793973650
+https://stream-lb.livemediama.com/arryadia/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="Athaqafia.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Athaqafia.ma.png" group-title="Culture" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",Athaqafia
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/corp/73_arrabia_hthcj4p_480p/chunks_dvr.m3u8?token=v8h3WZaSj6rWgE6lXT2Ehh_szQkZGNbNofZR-mLLwXc&token_path=%2Fabr_corp%2F73_arrabia_hthcj4p%2Fcorp%2F73_arrabia_hthcj4p_480p&expires=1793973650
+https://stream-lb.livemediama.com/athaqafia/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="AlMaghribia.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/AlMaghribia.ma.png" group-title="General" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",Al Maghribia
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/corp/73_almaghribia_83tz85q_480p/chunks_dvr.m3u8?token=KOBCDqyZ7EXMVfwN6lAlegY2zURa7TRbyhOTB5wOP2o&token_path=%2Fabr_corp%2F73_almaghribia_83tz85q%2Fcorp%2F73_almaghribia_83tz85q_480p&expires=1793973651
+https://stream-lb.livemediama.com/almaghribia/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="Assadissa.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Assadissa.ma.png" group-title="Religious" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",Assadissa
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/corp/73_assadissa_7b7u5n1_480p/chunks_dvr.m3u8?token=smUzmhVu67xht9xJXnGwwUeaG9kBNuFviXhWP8BXy_U&token_path=%2Fabr_corp%2F73_assadissa_7b7u5n1%2Fcorp%2F73_assadissa_7b7u5n1_480p&expires=1793973651
+https://stream-lb.livemediama.com/assadissa/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="AflamTV.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/AflamTV.ma.png" group-title="Movies" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",Aflam TV
 #EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://stream-lb.livemediama.com/aflam/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="TamazightTV.ma@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/TamazightTV.ma.png" group-title="General" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",Tamazight TV
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/corp/73_tamazight_tccybxt_480p/chunks_dvr.m3u8?token=Z6CrVHGRNfg8CFtJvv-O7cihrMnyF_0CFVxhxiCfX68&token_path=%2Fabr_corp%2F73_tamazight_tccybxt%2Fcorp%2F73_tamazight_tccybxt_480p&expires=1793973652
+https://stream-lb.livemediama.com/tamazight/hls/stream_3/playlist.m3u8
 #EXTINF:-1 tvg-id="M24TV.ma" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/M24TV.ma.png" group-title="News" http-referrer="https://livemediama.com/" http-user-agent="Mozilla/5.0",M24TV
 #EXTVLCOPT:http-referrer=https://livemediama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -71,7 +71,7 @@ https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="QatarTelevision2.qa" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/QatarTelevision2.qa.png" group-title="General",Qatar Television 2
 https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SharjahTV.ae" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/SharjahTV.ae.png" group-title="General",Sharjah TV
-https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8
+https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Sharjah2.ae" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Sharjah2.ae.png" group-title="General",Sharjah 2
 https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="IqraaArabic.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/IqraaArabic.sa.png" group-title="Religious",Iqraa Arabic
@@ -91,7 +91,7 @@ https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8
 #EXTINF:-1 tvg-id="JordanTV.jo" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/JordanTV.jo.png" group-title="General",Jordan TV
 https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
 #EXTINF:-1 tvg-id="RoyaTV.jo" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/RoyaTV.jo.png" group-title="General",Ro'ya TV
-https://royatv-live.daioncdn.net/royatv/royatv.m3u8
+https://live.kwikmotion.com/royatvpublic/royatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlAqsaTV.ps" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/AlAqsaTV.ps.png" group-title="General",Al Aqsa Channel
 https://43869de4e1a0d641.servers.dvcloud.tv/hls/al_aqsa_channel/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
 #EXTINF:-1 tvg-id="HannibalTV.tn@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/HannibalTV.png" group-title="General",Hannibal TV
@@ -102,6 +102,8 @@ https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
 # ——————————————— Turkije ———————————————
 #EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/ATVAvrupa.tr.png" group-title="General",ATV Avrupa
 https://streamer2.nexgen.bz/ATV/index.m3u8
+#EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/ATVAvrupa.tr.png" group-title="General",ATV Avrupa
+https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
 #EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/TRT1.tr.png" group-title="General",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/TRT2.tr.png" group-title="General",TRT 2
@@ -121,7 +123,7 @@ https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabiyaPrograms.ae@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/AlArabiyaPrograms.ae.png" group-title="News",Al Arabiya Programs
 https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNArabic.cn" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/CGTNArabic.cn.png" group-title="News",CGTN Arabic
-https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabyTV.qa@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/AlArabyTV.qa.png" group-title="News",Al Araby TV
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabyTV2.qa@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/AlArabyTV2.qa.png" group-title="News",Al Araby TV 2
@@ -181,12 +183,22 @@ https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-kitchen/playlist.m
 # ——————————————— Kids ———————————————
 #EXTINF:-1 tvg-id="DisneyChannel.us@West" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/DisneyChannel.png" group-title="Kids",Disney Channel
 https://fl31.moveonjoy.com/DISNEY/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.us@West" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/DisneyChannel.png" group-title="Kids",Disney Channel
+http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 #EXTINF:-1 tvg-id="DisneyJr.us@West" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/DisneyJr.png" group-title="Kids",Disney Jr.
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@West" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/DisneyXD.png" group-title="Kids",Disney XD
 http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
+#EXTINF:-1 tvg-id="DisneyXD.us@West" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/DisneyXD.png" group-title="Kids",Disney XD
+http://89.187.179.148:826/1368/gXwiagaXda/1672
 #EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Nickelodeon.png" group-title="Kids",Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Nickelodeon.png" group-title="Kids",Nickelodeon
+http://198.58.104.90:8989/nickelodeon/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.uk@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Nickelodeon.png" group-title="Kids",Nickelodeon
+http://tvsen7.aynascope.net/nicklodean/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.nl@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Nickelodeon.png" group-title="Kids",Nickelodeon
+http://185.77.12.179:9981/stream/channelid/788918401?profile=pass
 #EXTINF:-1 tvg-id="ducktv.sk@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/ducktv.sk.png" group-title="Kids",ducktv
 https://jmp2.uk/stvp-ESBC4700001GR
 #EXTINF:-1 tvg-id="ShaunTheSheep" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/ShaunTheSheep.png" group-title="Kids",Shaun the Sheep & Friends
