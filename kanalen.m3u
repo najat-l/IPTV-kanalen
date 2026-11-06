@@ -191,8 +191,8 @@ http://tvsen7.aynascope.net/nicklodean/index.m3u8
 https://jmp2.uk/stvp-ESBC4700001GR
 #EXTINF:-1 tvg-id="ShaunTheSheep" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/ShaunTheSheep.png" group-title="Kids",Shaun the Sheep & Friends
 https://aar-shaun-xumo.otteravision.com/aar/shaun/shaun.m3u8
-#EXTINF:-1 tvg-id="Majid.ae@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Majid.ae.png" group-title="Kids",Majid
-https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/majid/majid_hls_nd/index.m3u8
+# #EXTINF:-1 tvg-id="Majid.ae@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Majid.ae.png" group-title="Kids",Majid
+# https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/majid/majid_hls_nd/index.m3u8
 #EXTINF:-1 tvg-id="RoyaKids.jo@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/RoyaKids.jo.png" group-title="Kids",Roya Kids
 https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids/playlist.m3u8
 #EXTINF:-1 tvg-id="RoyaKidsOriginals.jo" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/RoyaKidsOriginals.jo.png" group-title="Kids",Roya Kids Originals
