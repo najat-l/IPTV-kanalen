@@ -6,7 +6,7 @@ CHANNELS = [
     {
         "name": "M24TV",
         "tvg_id": "M24TV.ma",
-        "logo": "https://raw.githubusercontent.com/najat-l/IPTV-kanalen/refs/heads/main/Logo's/M24TV.ma.png",
+        "logo": "https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/Logo's/M24TV.ma.png",
         "group": "News",
         "url": "https://www.youtube.com/watch?v=IssB8zo3uM0",
     }
