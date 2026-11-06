@@ -102,8 +102,6 @@ https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
 # ——————————————— Turkije ———————————————
 #EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/ATVAvrupa.tr.png" group-title="General",ATV Avrupa
 https://streamer2.nexgen.bz/ATV/index.m3u8
-#EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/ATVAvrupa.tr.png" group-title="General",ATV Avrupa
-https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
 #EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/TRT1.tr.png" group-title="General",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/TRT2.tr.png" group-title="General",TRT 2
@@ -162,8 +160,8 @@ https://fl1.moveonjoy.com/National_Geographic/index.m3u8
 https://fl1.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 
 # ——————————————— Entertainment ———————————————
-#EXTINF:-1 tvg-id="Ramez.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Ramez.sa.png" group-title="Comedy;Entertainment",Ramez
-https://shls-live-enc.edgenextcdn.net/out/v1/0ef83323c0374a1187c182645db2a45f/index.m3u8
+# #EXTINF:-1 tvg-id="Ramez.sa" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/Ramez.sa.png" group-title="Comedy;Entertainment",Ramez
+# https://shls-live-enc.edgenextcdn.net/out/v1/0ef83323c0374a1187c182645db2a45f/index.m3u8
 
 # ——————————————— Sport ———————————————
 #EXTINF:-1 tvg-id="FIFAPlus.uk@English" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/FIFAPlus.png" group-title="Sports",FIFA+
@@ -177,8 +175,8 @@ https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3
 https://d3i68hpvh19xjd.cloudfront.net/JamieOliver_GB.m3u8
 #EXTINF:-1 tvg-id="GordonRamsaysHellsKitchen.us@SD" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/GordonRamsaysHellsKitchen.us.png" group-title="Cooking",Gordon Ramsay's Hell's Kitchen
 https://aegis-cloudfront-1.tubi.video/c8364f36-c60b-4a39-8d86-0b92db4611c0/index.m3u8
-#EXTINF:-1 tvg-id="RoyaKitchen.jo" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/RoyaKitchen.jo.png" group-title="Cooking",Roya Kitchen
-https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-kitchen/playlist.m3u8
+# #EXTINF:-1 tvg-id="RoyaKitchen.jo" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/RoyaKitchen.jo.png" group-title="Cooking",Roya Kitchen
+# https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-kitchen/playlist.m3u8
 
 # ——————————————— Kids ———————————————
 #EXTINF:-1 tvg-id="DisneyChannel.us@West" tvg-logo="https://raw.githubusercontent.com/najat-l/iptv/refs/heads/main/images/DisneyChannel.png" group-title="Kids",Disney Channel
